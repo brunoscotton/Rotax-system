@@ -69,7 +69,7 @@ function itemById(itemId) {
 function itemsFor(engineId, sectionId) {
   return state.catalog.items
     .filter((item) => item.sectionId === sectionId && Number(item.qty?.[engineId] || 0) > 0)
-    .sort((a, b) => Number(a.figure) - Number(b.figure) || a.partNumber.localeCompare(b.partNumber));
+    .sort((a, b) => Number(a.figure) - Number(b.figure));
 }
 
 function routeForEngine(engineId) {
