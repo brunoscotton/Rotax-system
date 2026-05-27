@@ -4,3 +4,4 @@ server.log
 server.err.log
 requests/*.txt
 images/
+Seções manual/

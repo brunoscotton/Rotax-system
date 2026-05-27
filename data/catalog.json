@@ -32,7 +32,11 @@
   "sections": [
     {
       "id": "external-alternator",
-      "engineIds": ["912uls", "912ul", "914ul"],
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
       "label": "Alternators",
       "chapter": "24-30-00",
       "figure": "24-30-00",
@@ -41,35 +45,486 @@
       "image": "/assets/rotax-alternator-page.png",
       "thumb": "/assets/rotax-alternator-thumb.png",
       "hotspots": [
-        { "figure": "01", "x": 61.7, "y": 30.3 },
-        { "figure": "02", "x": 30.2, "y": 47.3 },
-        { "figure": "03", "x": 26.2, "y": 19.5 },
-        { "figure": "04", "x": 13.1, "y": 35.0 },
-        { "figure": "05", "x": 15.8, "y": 36.8 },
-        { "figure": "06", "x": 59.2, "y": 50.4 },
-        { "figure": "07", "x": 55.6, "y": 55.7 },
-        { "figure": "08", "x": 58.3, "y": 53.8 },
-        { "figure": "09", "x": 73.0, "y": 49.1 },
-        { "figure": "10", "x": 72.2, "y": 42.1 },
-        { "figure": "11", "x": 77.8, "y": 44.2 },
-        { "figure": "12", "x": 80.5, "y": 45.8 },
-        { "figure": "13", "x": 70.8, "y": 71.0 },
-        { "figure": "14", "x": 53.0, "y": 66.0 },
-        { "figure": "15", "x": 54.2, "y": 46.0 },
-        { "figure": "16", "x": 67.0, "y": 64.0 },
-        { "figure": "17", "x": 49.0, "y": 61.3 },
-        { "figure": "17", "x": 79.3, "y": 63.3 },
-        { "figure": "18", "x": 52.7, "y": 62.3 },
-        { "figure": "18", "x": 75.2, "y": 64.5 },
-        { "figure": "19", "x": 57.2, "y": 63.6 },
-        { "figure": "19", "x": 72.0, "y": 62.0 },
-        { "figure": "20", "x": 76.2, "y": 84.5 },
-        { "figure": "21", "x": 77.4, "y": 77.5 }
+        {
+          "figure": "01",
+          "x": 61.7,
+          "y": 30.3
+        },
+        {
+          "figure": "02",
+          "x": 30.2,
+          "y": 47.3
+        },
+        {
+          "figure": "03",
+          "x": 26.2,
+          "y": 19.5
+        },
+        {
+          "figure": "04",
+          "x": 13.1,
+          "y": 35
+        },
+        {
+          "figure": "05",
+          "x": 15.8,
+          "y": 36.8
+        },
+        {
+          "figure": "06",
+          "x": 59.2,
+          "y": 50.4
+        },
+        {
+          "figure": "07",
+          "x": 55.6,
+          "y": 55.7
+        },
+        {
+          "figure": "08",
+          "x": 58.3,
+          "y": 53.8
+        },
+        {
+          "figure": "09",
+          "x": 73,
+          "y": 49.1
+        },
+        {
+          "figure": "10",
+          "x": 72.2,
+          "y": 42.1
+        },
+        {
+          "figure": "11",
+          "x": 77.8,
+          "y": 44.2
+        },
+        {
+          "figure": "12",
+          "x": 80.5,
+          "y": 45.8
+        },
+        {
+          "figure": "13",
+          "x": 70.8,
+          "y": 71
+        },
+        {
+          "figure": "14",
+          "x": 53,
+          "y": 66
+        },
+        {
+          "figure": "15",
+          "x": 54.2,
+          "y": 46
+        },
+        {
+          "figure": "16",
+          "x": 67,
+          "y": 64
+        },
+        {
+          "figure": "17",
+          "x": 49,
+          "y": 61.3
+        },
+        {
+          "figure": "17",
+          "x": 79.3,
+          "y": 63.3
+        },
+        {
+          "figure": "18",
+          "x": 52.7,
+          "y": 62.3
+        },
+        {
+          "figure": "18",
+          "x": 75.2,
+          "y": 64.5
+        },
+        {
+          "figure": "19",
+          "x": 57.2,
+          "y": 63.6
+        },
+        {
+          "figure": "19",
+          "x": 72,
+          "y": 62
+        },
+        {
+          "figure": "20",
+          "x": 76.2,
+          "y": 84.5
+        },
+        {
+          "figure": "21",
+          "x": 77.4,
+          "y": 77.5
+        }
+      ]
+    },
+    {
+      "id": "crankcase",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Crankcase",
+      "chapter": "72-20-00",
+      "figure": "72-20-00-1",
+      "title": "CRANKCASE",
+      "source": "Crankcase IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-crankcase-page.png",
+      "thumb": "/assets/rotax-crankcase-thumb.png",
+      "hotspots": [
+        {
+          "figure": "01",
+          "x": 35.2,
+          "y": 29.2
+        },
+        {
+          "figure": "02",
+          "x": 13.5,
+          "y": 36.2
+        },
+        {
+          "figure": "02",
+          "x": 10.9,
+          "y": 50.4
+        },
+        {
+          "figure": "03",
+          "x": 9,
+          "y": 57.5
+        },
+        {
+          "figure": "04",
+          "x": 77,
+          "y": 68.8
+        },
+        {
+          "figure": "05",
+          "x": 81.7,
+          "y": 66.4
+        },
+        {
+          "figure": "06",
+          "x": 70.2,
+          "y": 62.1
+        },
+        {
+          "figure": "07",
+          "x": 75.2,
+          "y": 61
+        },
+        {
+          "figure": "08",
+          "x": 82.4,
+          "y": 58.2
+        },
+        {
+          "figure": "09",
+          "x": 66,
+          "y": 64.7
+        },
+        {
+          "figure": "10",
+          "x": 12,
+          "y": 45.1
+        },
+        {
+          "figure": "11",
+          "x": 7.8,
+          "y": 44
+        },
+        {
+          "figure": "12",
+          "x": 13.6,
+          "y": 24.8
+        },
+        {
+          "figure": "13",
+          "x": 10.6,
+          "y": 24.8
+        },
+        {
+          "figure": "14",
+          "x": 12.8,
+          "y": 34.8
+        },
+        {
+          "figure": "15",
+          "x": 9.6,
+          "y": 33.2
+        }
+      ]
+    },
+    {
+      "id": "crankshaft-piston-cylinder",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Piston",
+      "chapter": "72-20-00",
+      "figure": "72-20-00-2",
+      "title": "CRANKSHAFT, PISTON, CYLINDER, SPRAG CLUTCH",
+      "source": "Crankshaft IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-crankshaft-page.png",
+      "thumb": "/assets/rotax-crankshaft-thumb.png",
+      "hotspots": [
+        {
+          "figure": "01",
+          "x": 75.5,
+          "y": 66
+        },
+        {
+          "figure": "02",
+          "x": 74,
+          "y": 62.3
+        },
+        {
+          "figure": "03",
+          "x": 67.8,
+          "y": 61.8
+        },
+        {
+          "figure": "04",
+          "x": 87.5,
+          "y": 59
+        },
+        {
+          "figure": "05",
+          "x": 20,
+          "y": 48.8
+        },
+        {
+          "figure": "06",
+          "x": 43.4,
+          "y": 64.8
+        },
+        {
+          "figure": "07",
+          "x": 40.6,
+          "y": 66.3
+        },
+        {
+          "figure": "08",
+          "x": 38.2,
+          "y": 67
+        },
+        {
+          "figure": "09",
+          "x": 41.8,
+          "y": 52
+        },
+        {
+          "figure": "10",
+          "x": 48,
+          "y": 54.2
+        },
+        {
+          "figure": "11",
+          "x": 29.6,
+          "y": 58.3
+        },
+        {
+          "figure": "12",
+          "x": 22.2,
+          "y": 63.5
+        },
+        {
+          "figure": "13",
+          "x": 46,
+          "y": 47
+        },
+        {
+          "figure": "14",
+          "x": 46.8,
+          "y": 43.5
+        }
+      ]
+    },
+    {
+      "id": "cylinderhead-valve-train",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Cylinder Head",
+      "chapter": "72-20-00",
+      "figure": "72-20-00-3",
+      "title": "CYLINDERHEAD, VALVE TRAIN, VALVE COVER",
+      "source": "Cylinder Head IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-cylinderhead-page.png",
+      "thumb": "/assets/rotax-cylinderhead-thumb.png",
+      "hotspots": [
+        {
+          "figure": "01",
+          "x": 40.2,
+          "y": 20.8
+        },
+        {
+          "figure": "01",
+          "x": 37.2,
+          "y": 70.8
+        },
+        {
+          "figure": "02",
+          "x": 19.5,
+          "y": 37
+        },
+        {
+          "figure": "02",
+          "x": 63.4,
+          "y": 59.2
+        },
+        {
+          "figure": "03",
+          "x": 39,
+          "y": 49.8
+        },
+        {
+          "figure": "04",
+          "x": 42.2,
+          "y": 47
+        },
+        {
+          "figure": "05",
+          "x": 60.4,
+          "y": 67.6
+        },
+        {
+          "figure": "06",
+          "x": 58.2,
+          "y": 70
+        },
+        {
+          "figure": "07",
+          "x": 63,
+          "y": 70.2
+        },
+        {
+          "figure": "08",
+          "x": 64.5,
+          "y": 73
+        },
+        {
+          "figure": "09",
+          "x": 68,
+          "y": 73.4
+        },
+        {
+          "figure": "10",
+          "x": 55,
+          "y": 44
+        },
+        {
+          "figure": "11",
+          "x": 48,
+          "y": 36.2
+        },
+        {
+          "figure": "12",
+          "x": 58,
+          "y": 51.5
+        },
+        {
+          "figure": "13",
+          "x": 70,
+          "y": 78.5
+        },
+        {
+          "figure": "14",
+          "x": 72.4,
+          "y": 81.5
+        },
+        {
+          "figure": "15",
+          "x": 76,
+          "y": 76.8
+        },
+        {
+          "figure": "16",
+          "x": 75.2,
+          "y": 70.2
+        },
+        {
+          "figure": "17",
+          "x": 36.8,
+          "y": 78
+        },
+        {
+          "figure": "18",
+          "x": 34,
+          "y": 73
+        },
+        {
+          "figure": "19",
+          "x": 35.6,
+          "y": 76.2
+        },
+        {
+          "figure": "20",
+          "x": 42,
+          "y": 85.2
+        },
+        {
+          "figure": "21",
+          "x": 44.2,
+          "y": 88
+        },
+        {
+          "figure": "22",
+          "x": 62.5,
+          "y": 54
+        },
+        {
+          "figure": "23",
+          "x": 47.5,
+          "y": 33
+        },
+        {
+          "figure": "24",
+          "x": 48.5,
+          "y": 24.8
+        },
+        {
+          "figure": "25",
+          "x": 35,
+          "y": 55
+        },
+        {
+          "figure": "26",
+          "x": 41.2,
+          "y": 54
+        },
+        {
+          "figure": "27",
+          "x": 53.2,
+          "y": 80.8
+        },
+        {
+          "figure": "28",
+          "x": 49,
+          "y": 78.4
+        }
       ]
     },
     {
       "id": "magneto-generator",
-      "engineIds": ["912uls", "912ul", "914ul"],
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
       "label": "Double Ignition Assembly",
       "chapter": "24-20-00",
       "figure": "24-20-00",
@@ -78,113 +533,3030 @@
       "image": "/assets/rotax-ignition-page.png",
       "thumb": "/assets/rotax-ignition-thumb.png",
       "hotspots": [
-        { "figure": "01", "x": 62.5, "y": 44.5 },
-        { "figure": "02", "x": 35.1, "y": 51.8 },
-        { "figure": "03", "x": 13.5, "y": 32.5 },
-        { "figure": "03", "x": 58.4, "y": 62.3 },
-        { "figure": "04", "x": 12.0, "y": 34.7 },
-        { "figure": "04", "x": 42.9, "y": 74.9 },
-        { "figure": "05", "x": 10.3, "y": 54.2 },
-        { "figure": "06", "x": 50.0, "y": 50.6 },
-        { "figure": "07", "x": 50.5, "y": 52.0 },
-        { "figure": "08", "x": 19.0, "y": 41.8 },
-        { "figure": "09", "x": 16.4, "y": 37.6 },
-        { "figure": "10", "x": 57.8, "y": 68.6 },
-        { "figure": "11", "x": 9.9, "y": 51.2 },
-        { "figure": "12", "x": 23.1, "y": 44.7 },
-        { "figure": "12", "x": 55.9, "y": 49.0 },
-        { "figure": "13", "x": 12.5, "y": 46.1 },
-        { "figure": "14", "x": 21.3, "y": 40.0 },
-        { "figure": "15", "x": 56.6, "y": 67.1 },
-        { "figure": "16", "x": 55.9, "y": 64.0 },
-        { "figure": "17", "x": 65.4, "y": 45.1 },
-        { "figure": "18", "x": 43.3, "y": 41.6 },
-        { "figure": "19", "x": 42.5, "y": 45.7 },
-        { "figure": "20", "x": 45.0, "y": 48.4 },
-        { "figure": "21", "x": 17.6, "y": 72.6 },
-        { "figure": "22", "x": 62.1, "y": 34.0 },
-        { "figure": "23", "x": 62.3, "y": 33.0 },
-        { "figure": "24", "x": 64.3, "y": 32.1 },
-        { "figure": "25", "x": 74.3, "y": 30.1 },
-        { "figure": "26", "x": 54.6, "y": 17.4 },
-        { "figure": "27", "x": 34.5, "y": 23.6 },
-        { "figure": "28", "x": 44.2, "y": 25.0 },
-        { "figure": "29", "x": 33.8, "y": 81.9 },
-        { "figure": "30", "x": 38.5, "y": 81.4 },
-        { "figure": "31", "x": 47.5, "y": 80.0 },
-        { "figure": "32", "x": 55.9, "y": 81.8 },
-        { "figure": "33", "x": 52.0, "y": 80.8 },
-        { "figure": "34", "x": 29.3, "y": 36.9 },
-        { "figure": "35", "x": 22.4, "y": 40.6 },
-        { "figure": "36", "x": 24.7, "y": 44.5 },
-        { "figure": "37", "x": 79.1, "y": 86.3 },
-        { "figure": "38", "x": 81.1, "y": 86.3 }
+        {
+          "figure": "01",
+          "x": 62.5,
+          "y": 44.5
+        },
+        {
+          "figure": "02",
+          "x": 35.1,
+          "y": 51.8
+        },
+        {
+          "figure": "03",
+          "x": 13.5,
+          "y": 32.5
+        },
+        {
+          "figure": "03",
+          "x": 58.4,
+          "y": 62.3
+        },
+        {
+          "figure": "04",
+          "x": 12,
+          "y": 34.7
+        },
+        {
+          "figure": "04",
+          "x": 42.9,
+          "y": 74.9
+        },
+        {
+          "figure": "05",
+          "x": 10.3,
+          "y": 54.2
+        },
+        {
+          "figure": "06",
+          "x": 50,
+          "y": 50.6
+        },
+        {
+          "figure": "07",
+          "x": 50.5,
+          "y": 52
+        },
+        {
+          "figure": "08",
+          "x": 19,
+          "y": 41.8
+        },
+        {
+          "figure": "09",
+          "x": 16.4,
+          "y": 37.6
+        },
+        {
+          "figure": "10",
+          "x": 57.8,
+          "y": 68.6
+        },
+        {
+          "figure": "11",
+          "x": 9.9,
+          "y": 51.2
+        },
+        {
+          "figure": "12",
+          "x": 23.1,
+          "y": 44.7
+        },
+        {
+          "figure": "12",
+          "x": 55.9,
+          "y": 49
+        },
+        {
+          "figure": "13",
+          "x": 12.5,
+          "y": 46.1
+        },
+        {
+          "figure": "14",
+          "x": 21.3,
+          "y": 40
+        },
+        {
+          "figure": "15",
+          "x": 56.6,
+          "y": 67.1
+        },
+        {
+          "figure": "16",
+          "x": 55.9,
+          "y": 64
+        },
+        {
+          "figure": "17",
+          "x": 65.4,
+          "y": 45.1
+        },
+        {
+          "figure": "18",
+          "x": 43.3,
+          "y": 41.6
+        },
+        {
+          "figure": "19",
+          "x": 42.5,
+          "y": 45.7
+        },
+        {
+          "figure": "20",
+          "x": 45,
+          "y": 48.4
+        },
+        {
+          "figure": "21",
+          "x": 17.6,
+          "y": 72.6
+        },
+        {
+          "figure": "22",
+          "x": 62.1,
+          "y": 34
+        },
+        {
+          "figure": "23",
+          "x": 62.3,
+          "y": 33
+        },
+        {
+          "figure": "24",
+          "x": 64.3,
+          "y": 32.1
+        },
+        {
+          "figure": "25",
+          "x": 74.3,
+          "y": 30.1
+        },
+        {
+          "figure": "26",
+          "x": 54.6,
+          "y": 17.4
+        },
+        {
+          "figure": "27",
+          "x": 34.5,
+          "y": 23.6
+        },
+        {
+          "figure": "28",
+          "x": 44.2,
+          "y": 25
+        },
+        {
+          "figure": "29",
+          "x": 33.8,
+          "y": 81.9
+        },
+        {
+          "figure": "30",
+          "x": 38.5,
+          "y": 81.4
+        },
+        {
+          "figure": "31",
+          "x": 47.5,
+          "y": 80
+        },
+        {
+          "figure": "32",
+          "x": 55.9,
+          "y": 81.8
+        },
+        {
+          "figure": "33",
+          "x": 52,
+          "y": 80.8
+        },
+        {
+          "figure": "34",
+          "x": 29.3,
+          "y": 36.9
+        },
+        {
+          "figure": "35",
+          "x": 22.4,
+          "y": 40.6
+        },
+        {
+          "figure": "36",
+          "x": 24.7,
+          "y": 44.5
+        },
+        {
+          "figure": "37",
+          "x": 79.1,
+          "y": 86.3
+        },
+        {
+          "figure": "38",
+          "x": 81.1,
+          "y": 86.3
+        }
+      ]
+    },
+    {
+      "id": "propeller-gear",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Propeller Gear",
+      "chapter": "72-10-00",
+      "figure": "72-10-00",
+      "title": "PROPELLER GEAR ASSY.",
+      "source": "Gearbox IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-gearbox-page.png",
+      "thumb": "/assets/rotax-gearbox-thumb.png",
+      "hotspots": [
+        {
+          "figure": "01",
+          "x": 37,
+          "y": 81.4
+        },
+        {
+          "figure": "02",
+          "x": 42,
+          "y": 78.2
+        },
+        {
+          "figure": "03",
+          "x": 45,
+          "y": 83
+        },
+        {
+          "figure": "04",
+          "x": 58.2,
+          "y": 78.3
+        },
+        {
+          "figure": "05",
+          "x": 47,
+          "y": 73
+        },
+        {
+          "figure": "06",
+          "x": 64.3,
+          "y": 73.7
+        },
+        {
+          "figure": "07",
+          "x": 67,
+          "y": 72.2
+        },
+        {
+          "figure": "08",
+          "x": 68.4,
+          "y": 76
+        },
+        {
+          "figure": "09",
+          "x": 42,
+          "y": 61
+        },
+        {
+          "figure": "10",
+          "x": 25,
+          "y": 57
+        },
+        {
+          "figure": "11",
+          "x": 28.5,
+          "y": 59.2
+        },
+        {
+          "figure": "12",
+          "x": 43,
+          "y": 53
+        },
+        {
+          "figure": "13",
+          "x": 35,
+          "y": 48.5
+        },
+        {
+          "figure": "14",
+          "x": 38,
+          "y": 48.4
+        },
+        {
+          "figure": "15",
+          "x": 29,
+          "y": 46.5
+        },
+        {
+          "figure": "16",
+          "x": 76.5,
+          "y": 50.3
+        },
+        {
+          "figure": "17",
+          "x": 78.4,
+          "y": 49
+        },
+        {
+          "figure": "18",
+          "x": 73.5,
+          "y": 47
+        },
+        {
+          "figure": "19",
+          "x": 22.2,
+          "y": 28.2
+        },
+        {
+          "figure": "19",
+          "x": 21.6,
+          "y": 39.5
+        },
+        {
+          "figure": "20",
+          "x": 51.2,
+          "y": 30
+        },
+        {
+          "figure": "21",
+          "x": 67,
+          "y": 36.8
+        },
+        {
+          "figure": "22",
+          "x": 72,
+          "y": 38.2
+        },
+        {
+          "figure": "23",
+          "x": 78,
+          "y": 39.3
+        },
+        {
+          "figure": "24",
+          "x": 82,
+          "y": 40
+        },
+        {
+          "figure": "25",
+          "x": 84,
+          "y": 42
+        },
+        {
+          "figure": "26",
+          "x": 55.5,
+          "y": 48.8
+        },
+        {
+          "figure": "27",
+          "x": 51.5,
+          "y": 47.8
+        },
+        {
+          "figure": "28",
+          "x": 46.4,
+          "y": 46.5
+        },
+        {
+          "figure": "29",
+          "x": 43.5,
+          "y": 45
+        },
+        {
+          "figure": "30",
+          "x": 43,
+          "y": 43.8
+        },
+        {
+          "figure": "31",
+          "x": 64,
+          "y": 26.4
+        },
+        {
+          "figure": "32",
+          "x": 52.5,
+          "y": 23.2
+        },
+        {
+          "figure": "33",
+          "x": 55.4,
+          "y": 22.6
+        },
+        {
+          "figure": "34",
+          "x": 58.5,
+          "y": 21.2
+        },
+        {
+          "figure": "35",
+          "x": 83.5,
+          "y": 77
+        },
+        {
+          "figure": "36",
+          "x": 78.8,
+          "y": 89
+        },
+        {
+          "figure": "37",
+          "x": 77.8,
+          "y": 86
+        },
+        {
+          "figure": "38",
+          "x": 76.8,
+          "y": 75.8
+        },
+        {
+          "figure": "39",
+          "x": 77,
+          "y": 73.8
+        },
+        {
+          "figure": "40",
+          "x": 7.8,
+          "y": 28
+        },
+        {
+          "figure": "41",
+          "x": 34,
+          "y": 20.8
+        },
+        {
+          "figure": "42",
+          "x": 72,
+          "y": 32.8
+        },
+        {
+          "figure": "43",
+          "x": 43,
+          "y": 70
+        }
       ]
     }
   ],
   "items": [
-    { "id": "alt-01-980590", "sectionId": "external-alternator", "figure": "01", "partNumber": "980590", "description": "V-BELT PULLEY", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-01-887254", "sectionId": "external-alternator", "figure": "01", "partNumber": "887254", "description": "ALTERNATORSET", "note": "Ill. no. 1-21; optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-02-980400", "sectionId": "external-alternator", "figure": "02", "partNumber": "980400", "description": "V-BELT 9.5X675", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-03-980605", "sectionId": "external-alternator", "figure": "03", "partNumber": "980605", "description": "PULLEY CARRIER", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-04-840514", "sectionId": "external-alternator", "figure": "04", "partNumber": "840514", "description": "ALLEN SCREW - M5x16", "note": "optional", "qty": { "912ul": 8, "912uls": 8, "914ul": 8 } },
-    { "id": "alt-05-945830", "sectionId": "external-alternator", "figure": "05", "partNumber": "945830", "description": "LOCK WASHER - A5", "note": "optional", "qty": { "912ul": 8, "912uls": 8, "914ul": 8 } },
-    { "id": "alt-06-953223", "sectionId": "external-alternator", "figure": "06", "partNumber": "953223", "description": "ALTERNATOR BRACKET ASSY.", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-07-240072", "sectionId": "external-alternator", "figure": "07", "partNumber": "240072", "description": "ALLEN SCREW - M8x20", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-08-845310", "sectionId": "external-alternator", "figure": "08", "partNumber": "845310", "description": "LOCK WASHER VHZ 8", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-09-953233", "sectionId": "external-alternator", "figure": "09", "partNumber": "953233", "description": "ALTERNATOR SUPPORT ASSY.", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-10-241762", "sectionId": "external-alternator", "figure": "10", "partNumber": "241762", "description": "ALLEN SCREW - M6x50", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-11-945831", "sectionId": "external-alternator", "figure": "11", "partNumber": "945831", "description": "LOCK WASHER - A", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-12-827962", "sectionId": "external-alternator", "figure": "12", "partNumber": "827962", "description": "WASHER - A 6.4", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-13-887251", "sectionId": "external-alternator", "figure": "13", "partNumber": "887251", "description": "ALTERNATOR F3A", "note": "Marked with S/N; optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-14-927952", "sectionId": "external-alternator", "figure": "14", "partNumber": "927952", "description": "THRUST WASHER 10.1/20/0.5", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-15-941637", "sectionId": "external-alternator", "figure": "15", "partNumber": "941637", "description": "HEX. SCREW M10X45", "note": "with bore for safety wire; optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-16-953241", "sectionId": "external-alternator", "figure": "16", "partNumber": "953241", "description": "TENSION BAR", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "alt-17-940596", "sectionId": "external-alternator", "figure": "17", "partNumber": "940596", "description": "HEX. SCREW M8X20", "note": "with bore for safety wire; optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-18-945832", "sectionId": "external-alternator", "figure": "18", "partNumber": "945832", "description": "LOCK WASHER - A8", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-19-227936", "sectionId": "external-alternator", "figure": "19", "partNumber": "227936", "description": "WASHER - 8 - 200 HV", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-20-864011", "sectionId": "external-alternator", "figure": "20", "partNumber": "864011", "description": "FASTON CONNECTOR 6.3X0.8", "note": "optional", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "alt-21-265255", "sectionId": "external-alternator", "figure": "21", "partNumber": "265255", "description": "CONNECTOR HOUSING 2-POLE", "note": "optional", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "01-965192", "sectionId": "magneto-generator", "figure": "01", "partNumber": "965192", "description": "MAGNETO RING", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "02-891095", "sectionId": "magneto-generator", "figure": "02", "partNumber": "891095", "description": "STATOR ASSY.", "note": "Ill. no. 2-6; SI-912-013/SI-914-016 standardization of the ignition unit", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "03-860530", "sectionId": "magneto-generator", "figure": "03", "partNumber": "860530", "description": "SHRINK TUBE 9.5X1.27", "note": "as required", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "04-956620", "sectionId": "magneto-generator", "figure": "04", "partNumber": "956620", "description": "OIL TANK COVER", "note": "as required", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "05-851111", "sectionId": "magneto-generator", "figure": "05", "partNumber": "851111", "description": "CABLE CLAMP 8/M5", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "06-851566", "sectionId": "magneto-generator", "figure": "06", "partNumber": "851566", "description": "CABLE CLAMP 7/M5", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "07-945830", "sectionId": "magneto-generator", "figure": "07", "partNumber": "945830", "description": "LOCK WASHER - A5", "qty": { "912ul": 12, "912uls": 12, "914ul": 12 } },
-    { "id": "08-840514", "sectionId": "magneto-generator", "figure": "08", "partNumber": "840514", "description": "ALLEN SCREW - M5x16", "qty": { "912ul": 4, "912uls": 4, "914ul": 4 } },
-    { "id": "09-965179", "sectionId": "magneto-generator", "figure": "09", "partNumber": "965179", "description": "TRIGGER COIL KIT", "note": "Ill. no. 9, 36; elongated hole for adjustment and 6-pole connector incl. 7 pcs. PN 827801", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "10-264087", "sectionId": "magneto-generator", "figure": "10", "partNumber": "264087", "description": "TRIGGER COIL ASSY.", "note": "Trigger coil for rev. counter to PN 965176 and PN 965179", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "11-847660", "sectionId": "magneto-generator", "figure": "11", "partNumber": "847660", "description": "SPACER 5.2/12/7.4", "qty": { "912ul": 4, "912uls": 4, "914ul": 4 } },
-    { "id": "12-240187", "sectionId": "magneto-generator", "figure": "12", "partNumber": "240187", "description": "ALLEN SCREW - M5x25", "qty": { "912ul": 7, "912uls": 7, "914ul": 7 } },
-    { "id": "13-851250", "sectionId": "magneto-generator", "figure": "13", "partNumber": "851250", "description": "CABLE CLAMP 15/M5", "qty": { "912ul": 2, "912uls": 2, "914ul": 2 } },
-    { "id": "14-940882", "sectionId": "magneto-generator", "figure": "14", "partNumber": "940882", "description": "ALLEN SCREW - M5x30", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "15-827962", "sectionId": "magneto-generator", "figure": "15", "partNumber": "827962", "description": "WASHER - A 6.4", "qty": { "912ul": 7, "912uls": 7, "914ul": 7 } },
-    { "id": "16-840888", "sectionId": "magneto-generator", "figure": "16", "partNumber": "840888", "description": "ALLEN SCREW - M6x30", "note": "see chapter 75-20-00", "qty": { "912ul": 7, "912uls": 7, "914ul": 7 } },
-    { "id": "17-966874", "sectionId": "magneto-generator", "figure": "17", "partNumber": "966874", "description": "FLY WHEEL HUB", "note": "Advanced start system; SI-912-028", "qty": { "912ul": 1, "912uls": 1, "914ul": 0 } },
-    { "id": "17-966879", "sectionId": "magneto-generator", "figure": "17", "partNumber": "966879", "description": "FLY WHEEL HUB", "qty": { "912ul": 0, "912uls": 0, "914ul": 1 } },
-    { "id": "18-845381", "sectionId": "magneto-generator", "figure": "18", "partNumber": "845381", "description": "LOCK WASHER A6", "qty": { "912ul": 10, "912uls": 10, "914ul": 10 } },
-    { "id": "19-840883", "sectionId": "magneto-generator", "figure": "19", "partNumber": "840883", "description": "ALLEN SCREW M6X30", "qty": { "912ul": 5, "912uls": 5, "914ul": 5 } },
-    { "id": "20-840863", "sectionId": "magneto-generator", "figure": "20", "partNumber": "840863", "description": "ALLEN SCREW M6X25", "qty": { "912ul": 5, "912uls": 5, "914ul": 5 } },
-    { "id": "21-246571", "sectionId": "magneto-generator", "figure": "21", "partNumber": "246571", "description": "WOODRUFF KEY 4X5", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "22-944073", "sectionId": "magneto-generator", "figure": "22", "partNumber": "944073", "description": "WASHER 17/36/5", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "23-945769", "sectionId": "magneto-generator", "figure": "23", "partNumber": "945769", "description": "LOCK WASHER - A16", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "24-841602", "sectionId": "magneto-generator", "figure": "24", "partNumber": "841602", "description": "HEX. SCREW - M16x1.5x40", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "25-810980-new", "sectionId": "magneto-generator", "figure": "25", "partNumber": "810980", "description": "IGNITION COVER", "qty": { "912ul": 0, "912uls": 1, "914ul": 1 } },
-    { "id": "25-810980-opt", "sectionId": "magneto-generator", "figure": "25", "partNumber": "810980", "description": "IGNITION COVER", "note": "optional", "qty": { "912ul": 1, "912uls": 0, "914ul": 0 } },
-    { "id": "26-640172-new", "sectionId": "magneto-generator", "figure": "26", "partNumber": "640172", "description": "HEX.SCREW - M6X16", "qty": { "912ul": 0, "912uls": 3, "914ul": 3 } },
-    { "id": "26-640172-opt", "sectionId": "magneto-generator", "figure": "26", "partNumber": "640172", "description": "HEX.SCREW M6X16", "note": "optional", "qty": { "912ul": 3, "912uls": 0, "914ul": 0 } },
-    { "id": "27-965349", "sectionId": "magneto-generator", "figure": "27", "partNumber": "965349", "description": "RECTIFIER REGULATOR", "note": "Ill. no. 27-28", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "28-965335", "sectionId": "magneto-generator", "figure": "28", "partNumber": "965335", "description": "CONNECTOR HOUSING", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "29-864011", "sectionId": "magneto-generator", "figure": "29", "partNumber": "864011", "description": "FASTON CONNECTOR 6.3X0.8", "note": "as required", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "30-265252", "sectionId": "magneto-generator", "figure": "30", "partNumber": "265252", "description": "CONNECTOR HOUSING. TWO-POLE", "note": "as required; not with Form 1", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "31-265272", "sectionId": "magneto-generator", "figure": "31", "partNumber": "265272", "description": "FASTON CONNECTOR", "note": "as required; not with Form 1", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "32-265250", "sectionId": "magneto-generator", "figure": "32", "partNumber": "265250", "description": "CONNECTOR HOUSING. TWO-POLE", "note": "as required", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "33-265270", "sectionId": "magneto-generator", "figure": "33", "partNumber": "265270", "description": "FASTON CONNECTOR", "note": "as required", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "34-966590", "sectionId": "magneto-generator", "figure": "34", "partNumber": "966590", "description": "CAPACITOR. 22000 MYF 25V", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "35-866710", "sectionId": "magneto-generator", "figure": "35", "partNumber": "866710", "description": "TIE WRAP 142X2.5 MM", "qty": { "912ul": 3, "912uls": 3, "914ul": 3 } },
-    { "id": "36-827801", "sectionId": "magneto-generator", "figure": "36", "partNumber": "827801", "description": "WASHER - N - 6 - 200 HV", "note": "At all trigger coils with long hole", "qty": { "912ul": 7, "912uls": 7, "914ul": 7 } },
-    { "id": "37-966265", "sectionId": "magneto-generator", "figure": "37", "partNumber": "966265", "description": "LITHIUM-BATTERY 12V 12AH", "note": "SI-PAC-025", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } },
-    { "id": "38-966260", "sectionId": "magneto-generator", "figure": "38", "partNumber": "966260", "description": "LITHIUM-BATTERY 12V 16AH", "note": "SI-PAC-025", "qty": { "912ul": 1, "912uls": 1, "914ul": 1 } }
+    {
+      "id": "cr-01-300091401",
+      "sectionId": "crankcase",
+      "figure": "01",
+      "partNumber": "300091401",
+      "description": "ENGINE BLOCK ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "See Overhaul Manual of the respective engine type. current issue."
+    },
+    {
+      "id": "cr-01-300091202",
+      "sectionId": "crankcase",
+      "figure": "01",
+      "partNumber": "300091202",
+      "description": "ENGINE BLOCK ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "See Overhaul Manual of the respective engine type. current issue."
+    },
+    {
+      "id": "cr-02-429230",
+      "sectionId": "crankcase",
+      "figure": "02",
+      "partNumber": "429230",
+      "description": "DOWEL 6X20",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "cr-03-431570",
+      "sectionId": "crankcase",
+      "figure": "03",
+      "partNumber": "431570",
+      "description": "O-RING - 10.82X1.78",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "cr-04-944131",
+      "sectionId": "crankcase",
+      "figure": "04",
+      "partNumber": "944131",
+      "description": "WASHER 8",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "See Overhaul Manual of the respective engine type. current issue."
+    },
+    {
+      "id": "cr-05-940072",
+      "sectionId": "crankcase",
+      "figure": "05",
+      "partNumber": "940072",
+      "description": "HEX.COLLAR SCREW M8X45-SW10",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cr-06-926401",
+      "sectionId": "crankcase",
+      "figure": "06",
+      "partNumber": "926401",
+      "description": "WASHER 8.4/15/1",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "cr-06-926402",
+      "sectionId": "crankcase",
+      "figure": "06",
+      "partNumber": "926402",
+      "description": "WASHER 8.4/15/1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "cr-06-926400",
+      "sectionId": "crankcase",
+      "figure": "06",
+      "partNumber": "926400",
+      "description": "WASHER 8.4/15/0.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "cr-07-953304",
+      "sectionId": "crankcase",
+      "figure": "07",
+      "partNumber": "953304",
+      "description": "MANIFOLD BRACKET ASSY. STAINLESS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 78-10-00"
+    },
+    {
+      "id": "cr-08-440107",
+      "sectionId": "crankcase",
+      "figure": "08",
+      "partNumber": "440107",
+      "description": "ALLEN SCREW M8X50",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "See Overhaul Manual of the respective engine type. current issue."
+    },
+    {
+      "id": "cr-09-831929",
+      "sectionId": "crankcase",
+      "figure": "09",
+      "partNumber": "831929",
+      "description": "O-RING - 5X2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cr-10-950141",
+      "sectionId": "crankcase",
+      "figure": "10",
+      "partNumber": "950141",
+      "description": "SEALING RING A 8X13",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cr-11-240072",
+      "sectionId": "crankcase",
+      "figure": "11",
+      "partNumber": "240072",
+      "description": "ALLEN SCREW - M8x20",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cr-12-227280",
+      "sectionId": "crankcase",
+      "figure": "12",
+      "partNumber": "227280",
+      "description": "THRUST WASHER",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cr-13-940316",
+      "sectionId": "crankcase",
+      "figure": "13",
+      "partNumber": "940316",
+      "description": "COUNTERSUNK SCREW M5X12",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cr-14-944222",
+      "sectionId": "crankcase",
+      "figure": "14",
+      "partNumber": "944222",
+      "description": "BLINDING SHIM",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Only for model 2"
+    },
+    {
+      "id": "cr-15-430061",
+      "sectionId": "crankcase",
+      "figure": "15",
+      "partNumber": "430061",
+      "description": "O-RING - 26.7X1.8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Only for model 2"
+    },
+    {
+      "id": "cs-01-852402",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "01",
+      "partNumber": "852402",
+      "description": "SPRAG CLUTCH HOUSING",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "with drain holes"
+    },
+    {
+      "id": "cs-02-958856",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "02",
+      "partNumber": "958856",
+      "description": "SPRAG CLUTCH 51.710X68.377X13",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cs-03-845425",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "03",
+      "partNumber": "845425",
+      "description": "CIRCLIP 70",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cs-04-842574",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "04",
+      "partNumber": "842574",
+      "description": "HEX. NUT M34X1.5 LH",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "cs-05-888382",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "05",
+      "partNumber": "888382",
+      "description": "PISTON ASSY. 84/84.01 MM",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "Ill. no. 5-8; red 84 mm. green 84.01 mm"
+    },
+    {
+      "id": "cs-05-996542",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "05",
+      "partNumber": "996542",
+      "description": "PISTON ASSY. 79.50/79.51 MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 4
+      },
+      "note": "Ill. no. 5-8; red 79.50 mm. green 79.51 mm"
+    },
+    {
+      "id": "cs-06-215400",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "06",
+      "partNumber": "215400",
+      "description": "OIL SCRAPER RING 79.5 MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "cs-06-815230",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "06",
+      "partNumber": "815230",
+      "description": "OIL SCRAPER RING 84X76.5X3",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "cs-07-215420",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "07",
+      "partNumber": "215420",
+      "description": "TAPERED COMPRESSION RING 79.5 MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "cs-07-815280",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "07",
+      "partNumber": "815280",
+      "description": "TAPERED COMPRESSION RING 84",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "cs-08-215590",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "08",
+      "partNumber": "215590",
+      "description": "RECTANGULAR RING 79.5/72.9X1.5",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "cs-08-815251",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "08",
+      "partNumber": "815251",
+      "description": "RECTANGULAR RING 84/77X1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "cs-08-815257",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "08",
+      "partNumber": "815257",
+      "description": "RECTANGULAR RING 84/77X1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "N"
+    },
+    {
+      "id": "cs-09-916356",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "09",
+      "partNumber": "916356",
+      "description": "PISTON PIN 20X12X55.3",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "following Service Letter has to be noticed; SL-912-002 current issue; SL-914-002 current issue"
+    },
+    {
+      "id": "cs-10-845106",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "10",
+      "partNumber": "845106",
+      "description": "MONOHOOK CIRCLIP 20",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "cs-11-250510",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "11",
+      "partNumber": "250510",
+      "description": "O-RING - 87X2",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "cs-12-913229",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "12",
+      "partNumber": "913229",
+      "description": "CYLINDER",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "N; A 84.00 - 84.012. B 84.012 - 84.024"
+    },
+    {
+      "id": "cs-12-913226",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "12",
+      "partNumber": "913226",
+      "description": "CYLINDER",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "A 84.00 - 84.012. B 84.012 - 84.024; still valid"
+    },
+    {
+      "id": "cs-12-913223",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "12",
+      "partNumber": "913223",
+      "description": "CYLINDER",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 4
+      },
+      "note": "N; A 79.50 - 79.512. B 79.513 - 79.524"
+    },
+    {
+      "id": "cs-12-913222",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "12",
+      "partNumber": "913222",
+      "description": "CYLINDER",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 4
+      },
+      "note": "A 79.50 - 79.512. B 79.513 - 79.524; still valid"
+    },
+    {
+      "id": "cs-13-881540",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "13",
+      "partNumber": "881540",
+      "description": "PISTON SET 912/914 BALANCED",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Balanced piston set: max. difference 3 g"
+    },
+    {
+      "id": "cs-14-881542",
+      "sectionId": "crankshaft-piston-cylinder",
+      "figure": "14",
+      "partNumber": "881542",
+      "description": "PISTON SET 912 S / IS BALANCED",
+      "qty": {
+        "912ul": 0,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Balanced piston set: max. difference 3 g"
+    },
+    {
+      "id": "ch-01-413186",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "01",
+      "partNumber": "413186",
+      "description": "CYLINDERHEAD 2/3 ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "ch-01-413237",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "01",
+      "partNumber": "413237",
+      "description": "CYLINDER HEAD 2/3 ASSY.",
+      "qty": {
+        "912ul": 2,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "ch-02-413248",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "02",
+      "partNumber": "413248",
+      "description": "CYLINDER HEAD 1/4 ASSY.",
+      "qty": {
+        "912ul": 2,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "ch-02-413196",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "02",
+      "partNumber": "413196",
+      "description": "CYLINDERHEAD 1/4 ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "ch-03-854102",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "03",
+      "partNumber": "854102",
+      "description": "INTAKE VALVE 38 MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "N"
+    },
+    {
+      "id": "ch-03-854101",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "03",
+      "partNumber": "854101",
+      "description": "INTAKE VALVE 38 MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "ch-04-854111",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "04",
+      "partNumber": "854111",
+      "description": "EXHAUST VALVE 32MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "ch-04-854585",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "04",
+      "partNumber": "854585",
+      "description": "EXHAUST VALVE 32MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "N; SI-914-030"
+    },
+    {
+      "id": "ch-04-854113",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "04",
+      "partNumber": "854113",
+      "description": "EXHAUST VALVE 32MM",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "SI-914-030; still valid"
+    },
+    {
+      "id": "ch-05-926210",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "05",
+      "partNumber": "926210",
+      "description": "SHIM 16/27.4/1",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-06-230810",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "06",
+      "partNumber": "230810",
+      "description": "VALVE STEM SEAL",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-07-838156",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "07",
+      "partNumber": "838156",
+      "description": "VALVE SPRING",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-08-854188",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "08",
+      "partNumber": "854188",
+      "description": "VALVE SPRING RETAINER",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-09-253092",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "09",
+      "partNumber": "253092",
+      "description": "VALVE COTTER",
+      "qty": {
+        "912ul": 16,
+        "912uls": 16,
+        "914ul": 16
+      }
+    },
+    {
+      "id": "ch-10-924440",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "10",
+      "partNumber": "924440",
+      "description": "OIL RETURN TUBE",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-11-850930",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "11",
+      "partNumber": "850930",
+      "description": "O-RING - 16X5- GREEN",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-12-854862",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "12",
+      "partNumber": "854862",
+      "description": "VALVE PUSH-ROD ASSY.",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-13-854387",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "13",
+      "partNumber": "854387",
+      "description": "ROCKER ARM LEFT",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-14-933396",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "14",
+      "partNumber": "933396",
+      "description": "BUSHING",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-15-854397",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "15",
+      "partNumber": "854397",
+      "description": "ROCKER ARM RIGHT",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-16-854193",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "16",
+      "partNumber": "854193",
+      "description": "ROCKER ARM SHAFT",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-17-612260",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "17",
+      "partNumber": "612260",
+      "description": "VALVE COVER GREEN",
+      "qty": {
+        "912ul": 0,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "ch-17-612263",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "17",
+      "partNumber": "612263",
+      "description": "VALVE COVER BLACK",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "ch-17-612262",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "17",
+      "partNumber": "612262",
+      "description": "VALVE COVER RED",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-17-612267",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "17",
+      "partNumber": "612267",
+      "description": "VALVE COVER BLACK",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "without ROTAX logo; optional"
+    },
+    {
+      "id": "ch-18-881920",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "18",
+      "partNumber": "881920",
+      "description": "O-RING SET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 18-19"
+    },
+    {
+      "id": "ch-18-430205",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "18",
+      "partNumber": "430205",
+      "description": "O-RING - 6.4X1.8",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-19-250285",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "19",
+      "partNumber": "250285",
+      "description": "O-RING - 105X2.5",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-20-927941",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "20",
+      "partNumber": "927941",
+      "description": "WASHER 6.0/12/1",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-21-840887",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "21",
+      "partNumber": "840887",
+      "description": "ALLEN SCREW M6X30",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "ch-22-881920",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "22",
+      "partNumber": "881920",
+      "description": "O-RING SET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required; for rework of exhaust port; see Overhaul Manual (OHM) of the respective engine type. current issue."
+    },
+    {
+      "id": "ch-23-854099",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "23",
+      "partNumber": "854099",
+      "description": "HYDRAULIC VALVE TAPPET ASSY.",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      },
+      "note": "only available as a set"
+    },
+    {
+      "id": "ch-23-881832",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "23",
+      "partNumber": "881832",
+      "description": "HYDRAULIC VALVE TAPPET SET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "consists of 8 pcs. 854099"
+    },
+    {
+      "id": "ch-24-834183",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "24",
+      "partNumber": "834183",
+      "description": "WORM GEAR 5 T",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "see chapter 75-20-00"
+    },
+    {
+      "id": "ch-25-840171",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "25",
+      "partNumber": "840171",
+      "description": "STUD M8X200",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-26-840141",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "26",
+      "partNumber": "840141",
+      "description": "STUD M8X186",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-27-842476",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "27",
+      "partNumber": "842476",
+      "description": "COLLAR CAP NUT M8",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "ch-28-942302",
+      "sectionId": "cylinderhead-valve-train",
+      "figure": "28",
+      "partNumber": "942302",
+      "description": "COLLAR NUT M8",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "gb-01-887708",
+      "sectionId": "propeller-gear",
+      "figure": "01",
+      "partNumber": "887708",
+      "description": "GEARBOX WITH CLUTCH I 2.43-3",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Without pos. 1. 30-41; Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-01-887703",
+      "sectionId": "propeller-gear",
+      "figure": "01",
+      "partNumber": "887703",
+      "description": "GEARBOX WITH CLUTCH I 2.43-2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Without pos. 2. 31-42; Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-01-887271",
+      "sectionId": "propeller-gear",
+      "figure": "01",
+      "partNumber": "887271",
+      "description": "GEARBOX WITH CLUTCH 2.27-3",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Without Pos. 2. 31-42; Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-01-888560",
+      "sectionId": "propeller-gear",
+      "figure": "01",
+      "partNumber": "888560",
+      "description": "GEARBOX WITHOUT CLUTCH I 2.43-2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Without pos. 2. 31-42; Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-01-887281",
+      "sectionId": "propeller-gear",
+      "figure": "01",
+      "partNumber": "887281",
+      "description": "GEARBOX WITH CLUTCH 2.27-2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Without pos. 2. 31-42; Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-01-996605",
+      "sectionId": "propeller-gear",
+      "figure": "01",
+      "partNumber": "996605",
+      "description": "GEARBOX WITHOUT CLUTCH 2.27-2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Without pos. 2. 31-42; Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-02-842579",
+      "sectionId": "propeller-gear",
+      "figure": "02",
+      "partNumber": "842579",
+      "description": "HEX. NUT M30X1.5 12MM. LH",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-03-845431",
+      "sectionId": "propeller-gear",
+      "figure": "03",
+      "partNumber": "845431",
+      "description": "FRICTION WASHER VS30",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-04-886127",
+      "sectionId": "propeller-gear",
+      "figure": "04",
+      "partNumber": "886127",
+      "description": "GEAR SET I 2.27",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "gb-04-886548",
+      "sectionId": "propeller-gear",
+      "figure": "04",
+      "partNumber": "886548",
+      "description": "GEAR SET I 2.43",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-05-933362",
+      "sectionId": "propeller-gear",
+      "figure": "05",
+      "partNumber": "933362",
+      "description": "BUSHING 31X33X29.8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-06-827992",
+      "sectionId": "propeller-gear",
+      "figure": "06",
+      "partNumber": "827992",
+      "description": "THRUST WASHER 33.2/51/1.2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-07-834233",
+      "sectionId": "propeller-gear",
+      "figure": "07",
+      "partNumber": "834233",
+      "description": "DRIVE GEAR 29 T.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-08-926035",
+      "sectionId": "propeller-gear",
+      "figure": "08",
+      "partNumber": "926035",
+      "description": "RING HALF",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-08-996889",
+      "sectionId": "propeller-gear",
+      "figure": "08",
+      "partNumber": "996889",
+      "description": "CLUTCH ASSY RETROFIT KIT",
+      "qty": {
+        "912ul": 0,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 8-11; wide. 7 degree; for gear set I 2.43 (wide version)"
+    },
+    {
+      "id": "gb-08-996888",
+      "sectionId": "propeller-gear",
+      "figure": "08",
+      "partNumber": "996888",
+      "description": "CLUTCH ASSY. RETROFIT KIT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Ill. no. 8-11; for gear set I 2.27 (narrow version)"
+    },
+    {
+      "id": "gb-09-996885",
+      "sectionId": "propeller-gear",
+      "figure": "09",
+      "partNumber": "996885",
+      "description": "OVERLOAD CLUTCH ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Ill. no. 9. 43; narrow; for gear set I 2.27"
+    },
+    {
+      "id": "gb-09-996910",
+      "sectionId": "propeller-gear",
+      "figure": "09",
+      "partNumber": "996910",
+      "description": "OVERLOAD CLUTCH ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 9. 43; wide. 7 degree; for gear set I 2.43"
+    },
+    {
+      "id": "gb-10-847787",
+      "sectionId": "propeller-gear",
+      "figure": "10",
+      "partNumber": "847787",
+      "description": "STEP COLLAR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-11-838216",
+      "sectionId": "propeller-gear",
+      "figure": "11",
+      "partNumber": "838216",
+      "description": "DISK SPRING B80. 80X41X3",
+      "qty": {
+        "912ul": 3,
+        "912uls": 3,
+        "914ul": 3
+      }
+    },
+    {
+      "id": "gb-12-958528",
+      "sectionId": "propeller-gear",
+      "figure": "12",
+      "partNumber": "958528",
+      "description": "DOG HUB 0 DEGREE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "N; 0 degree"
+    },
+    {
+      "id": "gb-12-958896",
+      "sectionId": "propeller-gear",
+      "figure": "12",
+      "partNumber": "958896",
+      "description": "DOG HUB",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "for gear sets part no. 886125 and 886127: (narrow version)"
+    },
+    {
+      "id": "gb-12-958898",
+      "sectionId": "propeller-gear",
+      "figure": "12",
+      "partNumber": "958898",
+      "description": "DOG HUB",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "wide. 7 degree; for gear set part no. 886518 and 886548; (wide version)"
+    },
+    {
+      "id": "gb-13-847787",
+      "sectionId": "propeller-gear",
+      "figure": "13",
+      "partNumber": "847787",
+      "description": "STEP COLLAR",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-14-838216",
+      "sectionId": "propeller-gear",
+      "figure": "14",
+      "partNumber": "838216",
+      "description": "DISK SPRING B80. 80X41X3",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-15-847689",
+      "sectionId": "propeller-gear",
+      "figure": "15",
+      "partNumber": "847689",
+      "description": "SPACER 35.2/42/6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-16-927402",
+      "sectionId": "propeller-gear",
+      "figure": "16",
+      "partNumber": "927402",
+      "description": "SHIM 35.4/43/0.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "gb-16-927403",
+      "sectionId": "propeller-gear",
+      "figure": "16",
+      "partNumber": "927403",
+      "description": "SHIM 35.4/43/1.0",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "gb-16-927401",
+      "sectionId": "propeller-gear",
+      "figure": "16",
+      "partNumber": "927401",
+      "description": "SHIM 35.4/43/0.2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "gb-17-848225",
+      "sectionId": "propeller-gear",
+      "figure": "17",
+      "partNumber": "848225",
+      "description": "ECCENTER",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-18-847687",
+      "sectionId": "propeller-gear",
+      "figure": "18",
+      "partNumber": "847687",
+      "description": "SPACER 35.2/42/8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-19-937041",
+      "sectionId": "propeller-gear",
+      "figure": "19",
+      "partNumber": "937041",
+      "description": "PROPELLER SHAFT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Version 3"
+    },
+    {
+      "id": "gb-19-937047",
+      "sectionId": "propeller-gear",
+      "figure": "19",
+      "partNumber": "937047",
+      "description": "PROPELLER SHAFT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Version 2"
+    },
+    {
+      "id": "gb-20-610363",
+      "sectionId": "propeller-gear",
+      "figure": "20",
+      "partNumber": "610363",
+      "description": "GEAR COVER ASSY.PACKED",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 20; (811952 + packaging); With oil spray nozzle mounted"
+    },
+    {
+      "id": "gb-21-950470",
+      "sectionId": "propeller-gear",
+      "figure": "21",
+      "partNumber": "950470",
+      "description": "OIL SEAL AS 40X55X7",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-22-926022",
+      "sectionId": "propeller-gear",
+      "figure": "22",
+      "partNumber": "926022",
+      "description": "SPACER RING 36/50/5.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-23-832578",
+      "sectionId": "propeller-gear",
+      "figure": "23",
+      "partNumber": "832578",
+      "description": "BALL BEARING 6207E TN9. 35-72-17",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "gb-23-832587",
+      "sectionId": "propeller-gear",
+      "figure": "23",
+      "partNumber": "832587",
+      "description": "B. BEARING 6207 ETN9 C3 35-72-17",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "N"
+    },
+    {
+      "id": "gb-24-944320",
+      "sectionId": "propeller-gear",
+      "figure": "24",
+      "partNumber": "944320",
+      "description": "WASHER 7.2/18.8/3",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "gb-25-941760",
+      "sectionId": "propeller-gear",
+      "figure": "25",
+      "partNumber": "941760",
+      "description": "HEX. SCREW M7X16",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "gb-26-429230",
+      "sectionId": "propeller-gear",
+      "figure": "26",
+      "partNumber": "429230",
+      "description": "DOWEL 6X20",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-27-944131",
+      "sectionId": "propeller-gear",
+      "figure": "27",
+      "partNumber": "944131",
+      "description": "WASHER 8",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "not available; Replaced by hex. torx screw part no. 940077."
+    },
+    {
+      "id": "gb-28-940077",
+      "sectionId": "propeller-gear",
+      "figure": "28",
+      "partNumber": "940077",
+      "description": "HEX./TORX-FLANGE SCREW M8X45-SW10/T40",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-28-841562",
+      "sectionId": "propeller-gear",
+      "figure": "28",
+      "partNumber": "841562",
+      "description": "ALLEN SCREW - M8x45",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "not available; Replaced by hex. torx screw part no. 940077."
+    },
+    {
+      "id": "gb-29-945831",
+      "sectionId": "propeller-gear",
+      "figure": "29",
+      "partNumber": "945831",
+      "description": "LOCK WASHER - A6",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      },
+      "note": "N"
+    },
+    {
+      "id": "gb-29-827962",
+      "sectionId": "propeller-gear",
+      "figure": "29",
+      "partNumber": "827962",
+      "description": "WASHER - A 6.4",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "gb-30-241823",
+      "sectionId": "propeller-gear",
+      "figure": "30",
+      "partNumber": "241823",
+      "description": "ALLEN SCREW - M6x45",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "gb-31-940363",
+      "sectionId": "propeller-gear",
+      "figure": "31",
+      "partNumber": "940363",
+      "description": "STUD M8X23/14",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "gb-32-926151",
+      "sectionId": "propeller-gear",
+      "figure": "32",
+      "partNumber": "926151",
+      "description": "COVER",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-33-945832",
+      "sectionId": "propeller-gear",
+      "figure": "33",
+      "partNumber": "945832",
+      "description": "LOCK WASHER - A8",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-34-940592",
+      "sectionId": "propeller-gear",
+      "figure": "34",
+      "partNumber": "940592",
+      "description": "HEX.SCREW - M8X20",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "gb-35-950200",
+      "sectionId": "propeller-gear",
+      "figure": "35",
+      "partNumber": "950200",
+      "description": "OIL SEAL AS 30X52X7",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-36-430175",
+      "sectionId": "propeller-gear",
+      "figure": "36",
+      "partNumber": "430175",
+      "description": "O-RING - 46X3",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-37-810301",
+      "sectionId": "propeller-gear",
+      "figure": "37",
+      "partNumber": "810301",
+      "description": "OIL INLET FLANGE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-38-232246",
+      "sectionId": "propeller-gear",
+      "figure": "38",
+      "partNumber": "232246",
+      "description": "ROLLER BEARING RNU 205 ECP/PAB4L",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-39-945820",
+      "sectionId": "propeller-gear",
+      "figure": "39",
+      "partNumber": "945820",
+      "description": "RETAINING RING 52X2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "gb-40-827837",
+      "sectionId": "propeller-gear",
+      "figure": "40",
+      "partNumber": "827837",
+      "description": "COVER DISK",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "gb-41-842634",
+      "sectionId": "propeller-gear",
+      "figure": "41",
+      "partNumber": "842634",
+      "description": "ROUND-NECK NUT SET M8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Do not use at version with auxiliary alternator; only available as a set (includes 6 pieces)."
+    },
+    {
+      "id": "gb-42-456520",
+      "sectionId": "propeller-gear",
+      "figure": "42",
+      "partNumber": "456520",
+      "description": "OIL SPRAY NOZZLE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Gearbox with oil spray nozzle. Starting with Gearbox SN 74000."
+    },
+    {
+      "id": "gb-43-958521",
+      "sectionId": "propeller-gear",
+      "figure": "43",
+      "partNumber": "958521",
+      "description": "DOG HUB 30 DEGREE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "N; 0 degree; for gear set I 2.27"
+    },
+    {
+      "id": "gb-43-958525-a",
+      "sectionId": "propeller-gear",
+      "figure": "43",
+      "partNumber": "958525",
+      "description": "DOG HUB",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "7 degree; for gear set I 2.43; still valid"
+    },
+    {
+      "id": "gb-43-958526-a",
+      "sectionId": "propeller-gear",
+      "figure": "43",
+      "partNumber": "958526",
+      "description": "DOG HUB 30 DEGREE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "N; 7 degree; for gear set I 2.43; optional"
+    },
+    {
+      "id": "gb-43-958525-b",
+      "sectionId": "propeller-gear",
+      "figure": "43",
+      "partNumber": "958525",
+      "description": "DOG HUB",
+      "qty": {
+        "912ul": 0,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "7 degree; for gear set I 2.43; optional; still valid"
+    },
+    {
+      "id": "gb-43-958526-b",
+      "sectionId": "propeller-gear",
+      "figure": "43",
+      "partNumber": "958526",
+      "description": "DOG HUB 30 DEGREE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "N; for gear set I 2.43"
+    },
+    {
+      "id": "gb-43-958520",
+      "sectionId": "propeller-gear",
+      "figure": "43",
+      "partNumber": "958520",
+      "description": "DOG HUB",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "0 degree; for gear set I 2.27; still valid"
+    },
+    {
+      "id": "alt-01-980590",
+      "sectionId": "external-alternator",
+      "figure": "01",
+      "partNumber": "980590",
+      "description": "V-BELT PULLEY",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-01-887254",
+      "sectionId": "external-alternator",
+      "figure": "01",
+      "partNumber": "887254",
+      "description": "ALTERNATORSET",
+      "note": "Ill. no. 1-21; optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-02-980400",
+      "sectionId": "external-alternator",
+      "figure": "02",
+      "partNumber": "980400",
+      "description": "V-BELT 9.5X675",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-03-980605",
+      "sectionId": "external-alternator",
+      "figure": "03",
+      "partNumber": "980605",
+      "description": "PULLEY CARRIER",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-04-840514",
+      "sectionId": "external-alternator",
+      "figure": "04",
+      "partNumber": "840514",
+      "description": "ALLEN SCREW - M5x16",
+      "note": "optional",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "alt-05-945830",
+      "sectionId": "external-alternator",
+      "figure": "05",
+      "partNumber": "945830",
+      "description": "LOCK WASHER - A5",
+      "note": "optional",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "alt-06-953223",
+      "sectionId": "external-alternator",
+      "figure": "06",
+      "partNumber": "953223",
+      "description": "ALTERNATOR BRACKET ASSY.",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-07-240072",
+      "sectionId": "external-alternator",
+      "figure": "07",
+      "partNumber": "240072",
+      "description": "ALLEN SCREW - M8x20",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-08-845310",
+      "sectionId": "external-alternator",
+      "figure": "08",
+      "partNumber": "845310",
+      "description": "LOCK WASHER VHZ 8",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-09-953233",
+      "sectionId": "external-alternator",
+      "figure": "09",
+      "partNumber": "953233",
+      "description": "ALTERNATOR SUPPORT ASSY.",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-10-241762",
+      "sectionId": "external-alternator",
+      "figure": "10",
+      "partNumber": "241762",
+      "description": "ALLEN SCREW - M6x50",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-11-945831",
+      "sectionId": "external-alternator",
+      "figure": "11",
+      "partNumber": "945831",
+      "description": "LOCK WASHER - A",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-12-827962",
+      "sectionId": "external-alternator",
+      "figure": "12",
+      "partNumber": "827962",
+      "description": "WASHER - A 6.4",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-13-887251",
+      "sectionId": "external-alternator",
+      "figure": "13",
+      "partNumber": "887251",
+      "description": "ALTERNATOR F3A",
+      "note": "Marked with S/N; optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-14-927952",
+      "sectionId": "external-alternator",
+      "figure": "14",
+      "partNumber": "927952",
+      "description": "THRUST WASHER 10.1/20/0.5",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-15-941637",
+      "sectionId": "external-alternator",
+      "figure": "15",
+      "partNumber": "941637",
+      "description": "HEX. SCREW M10X45",
+      "note": "with bore for safety wire; optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-16-953241",
+      "sectionId": "external-alternator",
+      "figure": "16",
+      "partNumber": "953241",
+      "description": "TENSION BAR",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "alt-17-940596",
+      "sectionId": "external-alternator",
+      "figure": "17",
+      "partNumber": "940596",
+      "description": "HEX. SCREW M8X20",
+      "note": "with bore for safety wire; optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-18-945832",
+      "sectionId": "external-alternator",
+      "figure": "18",
+      "partNumber": "945832",
+      "description": "LOCK WASHER - A8",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-19-227936",
+      "sectionId": "external-alternator",
+      "figure": "19",
+      "partNumber": "227936",
+      "description": "WASHER - 8 - 200 HV",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-20-864011",
+      "sectionId": "external-alternator",
+      "figure": "20",
+      "partNumber": "864011",
+      "description": "FASTON CONNECTOR 6.3X0.8",
+      "note": "optional",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "alt-21-265255",
+      "sectionId": "external-alternator",
+      "figure": "21",
+      "partNumber": "265255",
+      "description": "CONNECTOR HOUSING 2-POLE",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "01-965192",
+      "sectionId": "magneto-generator",
+      "figure": "01",
+      "partNumber": "965192",
+      "description": "MAGNETO RING",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "02-891095",
+      "sectionId": "magneto-generator",
+      "figure": "02",
+      "partNumber": "891095",
+      "description": "STATOR ASSY.",
+      "note": "Ill. no. 2-6; SI-912-013/SI-914-016 standardization of the ignition unit",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "03-860530",
+      "sectionId": "magneto-generator",
+      "figure": "03",
+      "partNumber": "860530",
+      "description": "SHRINK TUBE 9.5X1.27",
+      "note": "as required",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "04-956620",
+      "sectionId": "magneto-generator",
+      "figure": "04",
+      "partNumber": "956620",
+      "description": "OIL TANK COVER",
+      "note": "as required",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "05-851111",
+      "sectionId": "magneto-generator",
+      "figure": "05",
+      "partNumber": "851111",
+      "description": "CABLE CLAMP 8/M5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "06-851566",
+      "sectionId": "magneto-generator",
+      "figure": "06",
+      "partNumber": "851566",
+      "description": "CABLE CLAMP 7/M5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "07-945830",
+      "sectionId": "magneto-generator",
+      "figure": "07",
+      "partNumber": "945830",
+      "description": "LOCK WASHER - A5",
+      "qty": {
+        "912ul": 12,
+        "912uls": 12,
+        "914ul": 12
+      }
+    },
+    {
+      "id": "08-840514",
+      "sectionId": "magneto-generator",
+      "figure": "08",
+      "partNumber": "840514",
+      "description": "ALLEN SCREW - M5x16",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "09-965179",
+      "sectionId": "magneto-generator",
+      "figure": "09",
+      "partNumber": "965179",
+      "description": "TRIGGER COIL KIT",
+      "note": "Ill. no. 9, 36; elongated hole for adjustment and 6-pole connector incl. 7 pcs. PN 827801",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "10-264087",
+      "sectionId": "magneto-generator",
+      "figure": "10",
+      "partNumber": "264087",
+      "description": "TRIGGER COIL ASSY.",
+      "note": "Trigger coil for rev. counter to PN 965176 and PN 965179",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "11-847660",
+      "sectionId": "magneto-generator",
+      "figure": "11",
+      "partNumber": "847660",
+      "description": "SPACER 5.2/12/7.4",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "12-240187",
+      "sectionId": "magneto-generator",
+      "figure": "12",
+      "partNumber": "240187",
+      "description": "ALLEN SCREW - M5x25",
+      "qty": {
+        "912ul": 7,
+        "912uls": 7,
+        "914ul": 7
+      }
+    },
+    {
+      "id": "13-851250",
+      "sectionId": "magneto-generator",
+      "figure": "13",
+      "partNumber": "851250",
+      "description": "CABLE CLAMP 15/M5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "14-940882",
+      "sectionId": "magneto-generator",
+      "figure": "14",
+      "partNumber": "940882",
+      "description": "ALLEN SCREW - M5x30",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "15-827962",
+      "sectionId": "magneto-generator",
+      "figure": "15",
+      "partNumber": "827962",
+      "description": "WASHER - A 6.4",
+      "qty": {
+        "912ul": 7,
+        "912uls": 7,
+        "914ul": 7
+      }
+    },
+    {
+      "id": "16-840888",
+      "sectionId": "magneto-generator",
+      "figure": "16",
+      "partNumber": "840888",
+      "description": "ALLEN SCREW - M6x30",
+      "note": "see chapter 75-20-00",
+      "qty": {
+        "912ul": 7,
+        "912uls": 7,
+        "914ul": 7
+      }
+    },
+    {
+      "id": "17-966874",
+      "sectionId": "magneto-generator",
+      "figure": "17",
+      "partNumber": "966874",
+      "description": "FLY WHEEL HUB",
+      "note": "Advanced start system; SI-912-028",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "17-966879",
+      "sectionId": "magneto-generator",
+      "figure": "17",
+      "partNumber": "966879",
+      "description": "FLY WHEEL HUB",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "18-845381",
+      "sectionId": "magneto-generator",
+      "figure": "18",
+      "partNumber": "845381",
+      "description": "LOCK WASHER A6",
+      "qty": {
+        "912ul": 10,
+        "912uls": 10,
+        "914ul": 10
+      }
+    },
+    {
+      "id": "19-840883",
+      "sectionId": "magneto-generator",
+      "figure": "19",
+      "partNumber": "840883",
+      "description": "ALLEN SCREW M6X30",
+      "qty": {
+        "912ul": 5,
+        "912uls": 5,
+        "914ul": 5
+      }
+    },
+    {
+      "id": "20-840863",
+      "sectionId": "magneto-generator",
+      "figure": "20",
+      "partNumber": "840863",
+      "description": "ALLEN SCREW M6X25",
+      "qty": {
+        "912ul": 5,
+        "912uls": 5,
+        "914ul": 5
+      }
+    },
+    {
+      "id": "21-246571",
+      "sectionId": "magneto-generator",
+      "figure": "21",
+      "partNumber": "246571",
+      "description": "WOODRUFF KEY 4X5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "22-944073",
+      "sectionId": "magneto-generator",
+      "figure": "22",
+      "partNumber": "944073",
+      "description": "WASHER 17/36/5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "23-945769",
+      "sectionId": "magneto-generator",
+      "figure": "23",
+      "partNumber": "945769",
+      "description": "LOCK WASHER - A16",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "24-841602",
+      "sectionId": "magneto-generator",
+      "figure": "24",
+      "partNumber": "841602",
+      "description": "HEX. SCREW - M16x1.5x40",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "25-810980-new",
+      "sectionId": "magneto-generator",
+      "figure": "25",
+      "partNumber": "810980",
+      "description": "IGNITION COVER",
+      "qty": {
+        "912ul": 0,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "25-810980-opt",
+      "sectionId": "magneto-generator",
+      "figure": "25",
+      "partNumber": "810980",
+      "description": "IGNITION COVER",
+      "note": "optional",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "26-640172-new",
+      "sectionId": "magneto-generator",
+      "figure": "26",
+      "partNumber": "640172",
+      "description": "HEX.SCREW - M6X16",
+      "qty": {
+        "912ul": 0,
+        "912uls": 3,
+        "914ul": 3
+      }
+    },
+    {
+      "id": "26-640172-opt",
+      "sectionId": "magneto-generator",
+      "figure": "26",
+      "partNumber": "640172",
+      "description": "HEX.SCREW M6X16",
+      "note": "optional",
+      "qty": {
+        "912ul": 3,
+        "912uls": 0,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "27-965349",
+      "sectionId": "magneto-generator",
+      "figure": "27",
+      "partNumber": "965349",
+      "description": "RECTIFIER REGULATOR",
+      "note": "Ill. no. 27-28",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "28-965335",
+      "sectionId": "magneto-generator",
+      "figure": "28",
+      "partNumber": "965335",
+      "description": "CONNECTOR HOUSING",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "29-864011",
+      "sectionId": "magneto-generator",
+      "figure": "29",
+      "partNumber": "864011",
+      "description": "FASTON CONNECTOR 6.3X0.8",
+      "note": "as required",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "30-265252",
+      "sectionId": "magneto-generator",
+      "figure": "30",
+      "partNumber": "265252",
+      "description": "CONNECTOR HOUSING. TWO-POLE",
+      "note": "as required; not with Form 1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "31-265272",
+      "sectionId": "magneto-generator",
+      "figure": "31",
+      "partNumber": "265272",
+      "description": "FASTON CONNECTOR",
+      "note": "as required; not with Form 1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "32-265250",
+      "sectionId": "magneto-generator",
+      "figure": "32",
+      "partNumber": "265250",
+      "description": "CONNECTOR HOUSING. TWO-POLE",
+      "note": "as required",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "33-265270",
+      "sectionId": "magneto-generator",
+      "figure": "33",
+      "partNumber": "265270",
+      "description": "FASTON CONNECTOR",
+      "note": "as required",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "34-966590",
+      "sectionId": "magneto-generator",
+      "figure": "34",
+      "partNumber": "966590",
+      "description": "CAPACITOR. 22000 MYF 25V",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "35-866710",
+      "sectionId": "magneto-generator",
+      "figure": "35",
+      "partNumber": "866710",
+      "description": "TIE WRAP 142X2.5 MM",
+      "qty": {
+        "912ul": 3,
+        "912uls": 3,
+        "914ul": 3
+      }
+    },
+    {
+      "id": "36-827801",
+      "sectionId": "magneto-generator",
+      "figure": "36",
+      "partNumber": "827801",
+      "description": "WASHER - N - 6 - 200 HV",
+      "note": "At all trigger coils with long hole",
+      "qty": {
+        "912ul": 7,
+        "912uls": 7,
+        "914ul": 7
+      }
+    },
+    {
+      "id": "37-966265",
+      "sectionId": "magneto-generator",
+      "figure": "37",
+      "partNumber": "966265",
+      "description": "LITHIUM-BATTERY 12V 12AH",
+      "note": "SI-PAC-025",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "38-966260",
+      "sectionId": "magneto-generator",
+      "figure": "38",
+      "partNumber": "966260",
+      "description": "LITHIUM-BATTERY 12V 16AH",
+      "note": "SI-PAC-025",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    }
   ]
 }
