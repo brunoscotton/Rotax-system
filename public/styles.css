@@ -428,21 +428,30 @@ h3 {
   position: absolute;
   display: grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
-  margin: -14px 0 0 -14px;
-  background: var(--amber);
-  color: #111;
-  border: 2px solid #fff;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  background: transparent;
+  color: transparent;
+  border: 0;
   border-radius: 50%;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: none;
   font-size: 12px;
   font-weight: 700;
 }
 
+.hotspot:hover {
+  background: transparent;
+}
+
+.hotspot:focus-visible {
+  outline: 3px solid rgba(0, 153, 216, 0.45);
+  outline-offset: 2px;
+}
+
 .hotspot.selected {
-  background: var(--green);
-  color: #fff;
+  background: transparent;
+  color: transparent;
 }
 
 .parts-panel {

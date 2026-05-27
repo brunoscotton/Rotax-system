@@ -319,6 +319,7 @@ function renderSection(engineId, sectionId) {
                 return item ? `
                   <button class="hotspot ${selected ? "selected" : ""}" type="button"
                     title="Adicionar PN ${escapeHtml(item.partNumber)}"
+                    aria-label="Adicionar PN ${escapeHtml(item.partNumber)}"
                     style="left:${spot.x}%; top:${spot.y}%"
                     data-add="${item.id}"
                     data-engine="${engineId}">

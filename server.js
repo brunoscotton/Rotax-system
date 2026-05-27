@@ -41,6 +41,12 @@ function requiredText(value) {
   return typeof value === "string" && value.trim().length > 0;
 }
 
+function formatPartNumberForCopy(partNumber) {
+  const digits = String(partNumber || "").replace(/\D/g, "");
+  if (digits.length === 6) return `${digits.slice(0, 3)} ${digits.slice(3)}`;
+  return String(partNumber || "");
+}
+
 function buildQuoteText({ customer, items }) {
   const createdAt = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" });
   const lines = [
@@ -65,7 +71,7 @@ function buildQuoteText({ customer, items }) {
 
   lines.push("", "CODIGOS PARA COPIAR");
   for (const item of items) {
-    lines.push(`${item.partNumber || ""} - ${item.quantity || 1}x`);
+    lines.push(`${item.quantity || 1} ${formatPartNumberForCopy(item.partNumber)}`);
   }
 
   return `${lines.join("\n")}\n`;
