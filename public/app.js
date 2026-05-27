@@ -66,6 +66,24 @@ function routeForEngine(engineId) {
 
 const nestedCategories = [
   {
+    id: "exhaust",
+    label: "Exhaust",
+    title: "Sistema de escapamento",
+    thumb: "/assets/rotax-exhaust-system-thumb.png"
+  },
+  {
+    id: "oil-systems",
+    label: "Oil Systems",
+    title: "Sistema de oleo",
+    thumb: "/assets/rotax-oil-pump-912-thumb.png"
+  },
+  {
+    id: "radiator",
+    label: "Radiators",
+    title: "Radiadores",
+    thumb: "/assets/rotax-oil-radiator-thumb.png"
+  },
+  {
     id: "water-circuits",
     label: "Water Circuits",
     title: "Circuitos de agua",
@@ -93,19 +111,21 @@ function categoriesForEngine(engineId) {
     { label: "Crankcase" },
     { label: "Cylinder Head" },
     { label: "Double Ignition Assembly" },
-    { label: "Exhaust" },
+    { label: "Exhaust", categoryId: "exhaust" },
+    { label: "Flydat, Sensor Set" },
     { label: "Fuel Pump Assembly-Fuel Hose Assembly-Airbox Assembly" },
     { label: "Governors" },
     { label: "Intake Manifold" },
     { label: "Magnetic pickup Assy" },
-    { label: "Oil Systems" },
+    { label: "Oil Systems", categoryId: "oil-systems" },
     { label: "Overload Clutch" },
     { label: "Piston" },
     { label: "Propeller Gear" },
-    { label: "Radiator" },
+    { label: "Radiators", categoryId: "radiator" },
     { label: "Water Circuits", categoryId: "water-circuits" },
     { label: "Starters" },
     { label: "Suspension Frame" },
+    { label: "Turbocharger Control Unit" },
     { label: "Tools" }
   ];
   const sections = state.catalog.sections.filter((section) => section.engineIds.includes(engineId));
@@ -120,7 +140,7 @@ function categoriesForEngine(engineId) {
         count,
         sections: categorySections,
         category: true,
-        statusText: `${categorySections.length} subcategorias`
+        statusText: categorySections.length === 1 ? "1 subcategoria" : `${categorySections.length} subcategorias`
       } : {
         id: `placeholder-${template.label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
         label: template.label,

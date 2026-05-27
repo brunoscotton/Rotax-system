@@ -2393,6 +2393,149 @@
       ]
     },
     {
+      "id": "exhaust-system",
+      "categoryId": "exhaust",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Exhaust System",
+      "chapter": "78-10-00",
+      "figure": "78-10-00",
+      "title": "EXHAUST SYSTEM",
+      "source": "Exhaust system IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-exhaust-system-page.png",
+      "thumb": "/assets/rotax-exhaust-system-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "exhaust-system-912-series",
+      "categoryId": "exhaust",
+      "engineIds": [
+        "912uls",
+        "912ul"
+      ],
+      "label": "Exhaust System 912 Series",
+      "chapter": "78-10-00",
+      "figure": "78-10-00",
+      "title": "EXHAUST SYSTEM 912 SERIES",
+      "source": "Exhaust system IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-exhaust-system-912-page.png",
+      "thumb": "/assets/rotax-exhaust-system-912-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "muffler-turbocharger-oil-sump",
+      "categoryId": "exhaust",
+      "engineIds": [
+        "914ul"
+      ],
+      "label": "Muffler, Turbocharger, Oil Sump Container",
+      "chapter": "78-10-00",
+      "figure": "78-10-00",
+      "title": "MUFFLER, TURBOCHARGER, OIL SUMP CONTAINER",
+      "source": "Muffler turbocharger IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-muffler-turbocharger-page.png",
+      "thumb": "/assets/rotax-muffler-turbocharger-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "oil-pump-assy-912",
+      "categoryId": "oil-systems",
+      "engineIds": [
+        "912uls",
+        "912ul"
+      ],
+      "label": "Oil Pump Assy 912 Series",
+      "chapter": "79-20-00",
+      "figure": "79-20-00",
+      "title": "OIL PUMP ASSY., OIL FILTER, OIL TEMPERATURE SENSOR, OIL PRESSURE SENSOR 912 SERIES",
+      "source": "Oil pump IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-oil-pump-912-page.png",
+      "thumb": "/assets/rotax-oil-pump-912-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "oil-pump-assy-914",
+      "categoryId": "oil-systems",
+      "engineIds": [
+        "914ul"
+      ],
+      "label": "Oil Pump Assy 914 Series",
+      "chapter": "79-20-00",
+      "figure": "79-20-00",
+      "title": "OIL PUMP ASSY., OIL FILTER, OIL TEMPERATURE SENSOR, OIL PRESSURE SENSOR 914 SERIES",
+      "source": "Oil pump 914 IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-oil-pump-914-page.png",
+      "thumb": "/assets/rotax-oil-pump-914-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "oil-radiator",
+      "categoryId": "radiator",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Oil Radiator",
+      "chapter": "79-20-00",
+      "figure": "79-20-00",
+      "title": "OIL RADIATOR",
+      "source": "Oil radiator IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-oil-radiator-page.png",
+      "thumb": "/assets/rotax-oil-radiator-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "cooling-air-baffle-radiator",
+      "categoryId": "radiator",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Cooling Air Baffle, Overflow Bottle With Cap, Radiator",
+      "chapter": "75-20-00",
+      "figure": "75-20-00",
+      "title": "COOLING AIR BAFFLE, OVERFLOW BOTTLE WITH CAP, RADIATOR",
+      "source": "Cooling air baffle IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-cooling-air-baffle-page.png",
+      "thumb": "/assets/rotax-cooling-air-baffle-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "flydat-sensor-set",
+      "engineIds": [
+        "912uls",
+        "912ul",
+        "914ul"
+      ],
+      "label": "Flydat, Sensor Set",
+      "chapter": "76-20-00",
+      "figure": "76-20-00",
+      "title": "FLYDAT, SENSOR SET",
+      "source": "Flydat sensor set IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-flydat-sensor-set-page.png",
+      "thumb": "/assets/rotax-flydat-sensor-set-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "turbocharger-control-unit",
+      "engineIds": [
+        "914ul"
+      ],
+      "label": "Turbocharger Control Unit",
+      "chapter": "76-10-00",
+      "figure": "76-10-00",
+      "title": "TURBOCHARGER CONTROL UNIT",
+      "source": "Turbocharger control unit IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-turbocharger-control-unit-page.png",
+      "thumb": "/assets/rotax-turbocharger-control-unit-thumb.png",
+      "hotspots": []
+    },
+    {
       "id": "water-pump-with-drive",
       "categoryId": "water-circuits",
       "engineIds": [
@@ -9381,6 +9524,3133 @@
         "914ul": 2
       },
       "note": "SI-912-020 SI-914-022"
+    },
+    {
+      "id": "exhaustsys-01-01-973676",
+      "sectionId": "exhaust-system",
+      "figure": "01",
+      "partNumber": "973676",
+      "description": "EXHAUST ASSORTMENT STAINLESS STEEL",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Ill. no. 1-8 non certified optional not available"
+    },
+    {
+      "id": "exhaustsys-02-01-973677",
+      "sectionId": "exhaust-system",
+      "figure": "01",
+      "partNumber": "973677",
+      "description": "EXHAUST ASSORTMENT STAINLESS STEEL",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N Ill. no. 1-8. 13 non certified optional"
+    },
+    {
+      "id": "exhaustsys-03-01-978489",
+      "sectionId": "exhaust-system",
+      "figure": "01",
+      "partNumber": "978489",
+      "description": "EXHAUST ASSORTMENT STAINLESS STEEL",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Ill. no. 1-8 For 80 HP engine only! Do not use on 100 HP engine. with muffler assy. part no. 978063 or 978064. optional"
+    },
+    {
+      "id": "exhaustsys-04-02-978064",
+      "sectionId": "exhaust-system",
+      "figure": "02",
+      "partNumber": "978064",
+      "description": "MUFFLER ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Status N For 80 HP engine only! Do not use on 100 HP engine. optional"
+    },
+    {
+      "id": "exhaustsys-05-02-978063",
+      "sectionId": "exhaust-system",
+      "figure": "02",
+      "partNumber": "978063",
+      "description": "MUFFLER ASSY. STAINLESS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "For 80 HP engine only! Do not use on 100 HP engine optional still valid"
+    },
+    {
+      "id": "exhaustsys-06-02-973674",
+      "sectionId": "exhaust-system",
+      "figure": "02",
+      "partNumber": "973674",
+      "description": "MUFFLER ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N non certified only with 978605 optional not available"
+    },
+    {
+      "id": "exhaustsys-07-02-973673",
+      "sectionId": "exhaust-system",
+      "figure": "02",
+      "partNumber": "973673",
+      "description": "MUFFLER ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "non certified only with 973389 optional"
+    },
+    {
+      "id": "exhaustsys-08-03-978605",
+      "sectionId": "exhaust-system",
+      "figure": "03",
+      "partNumber": "978605",
+      "description": "EXHAUST ELBOW. STAINLESS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "diameter 40 mm non certified optional not available"
+    },
+    {
+      "id": "exhaustsys-09-03-978603",
+      "sectionId": "exhaust-system",
+      "figure": "03",
+      "partNumber": "978603",
+      "description": "EXHAUST ELBOW",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "mild steel optional not available"
+    },
+    {
+      "id": "exhaustsys-10-03-973389",
+      "sectionId": "exhaust-system",
+      "figure": "03",
+      "partNumber": "973389",
+      "description": "EXHAUST ELBOW. STAINLESS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N diameter 42 mm non certified optional"
+    },
+    {
+      "id": "exhaustsys-11-04-978520",
+      "sectionId": "exhaust-system",
+      "figure": "04",
+      "partNumber": "978520",
+      "description": "BALL JOINT. MALE",
+      "qty": {
+        "912ul": 4,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "mild steel optional not available"
+    },
+    {
+      "id": "exhaustsys-12-04-978521",
+      "sectionId": "exhaust-system",
+      "figure": "04",
+      "partNumber": "978521",
+      "description": "BALL JOINT. MALE STAINLESS",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "non certified optional"
+    },
+    {
+      "id": "exhaustsys-13-05-978997",
+      "sectionId": "exhaust-system",
+      "figure": "05",
+      "partNumber": "978997",
+      "description": "EXHAUST TUBE 800 MM",
+      "qty": {
+        "912ul": 2,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "mild steel optional not available"
+    },
+    {
+      "id": "exhaustsys-14-05-978998",
+      "sectionId": "exhaust-system",
+      "figure": "05",
+      "partNumber": "978998",
+      "description": "EXHAUST TUBE 800 MM. STAINLESS",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      },
+      "note": "non certified optional"
+    },
+    {
+      "id": "exhaustsys-15-06-978500",
+      "sectionId": "exhaust-system",
+      "figure": "06",
+      "partNumber": "978500",
+      "description": "EXH.ELBOW ASSY. 360 DEGR.STAINL.",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      },
+      "note": "360 degree circular ring non certified"
+    },
+    {
+      "id": "exhaustsys-16-06-978502",
+      "sectionId": "exhaust-system",
+      "figure": "06",
+      "partNumber": "978502",
+      "description": "EXHAUST ELBOW ASSY. 360 DEGR..",
+      "qty": {
+        "912ul": 2,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "360 degree annular ring (torus-shaped) mild steel not available"
+    },
+    {
+      "id": "exhaustsys-17-07-853356",
+      "sectionId": "exhaust-system",
+      "figure": "07",
+      "partNumber": "853356",
+      "description": "HOOK. STAINLESS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 8,
+        "914ul": 0
+      },
+      "note": "non certified optional"
+    },
+    {
+      "id": "exhaustsys-18-07-853355",
+      "sectionId": "exhaust-system",
+      "figure": "07",
+      "partNumber": "853355",
+      "description": "HOOK",
+      "qty": {
+        "912ul": 8,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "mild steel optional not available"
+    },
+    {
+      "id": "exhaustsys-19-08-938796",
+      "sectionId": "exhaust-system",
+      "figure": "08",
+      "partNumber": "938796",
+      "description": "SPRING 66 MM",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 0
+      },
+      "note": "stainless non certified optional"
+    },
+    {
+      "id": "exhaustsys-20-09-978246",
+      "sectionId": "exhaust-system",
+      "figure": "09",
+      "partNumber": "978246",
+      "description": "EXHAUST FLANGE",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "exhaustsys-21-10-978252",
+      "sectionId": "exhaust-system",
+      "figure": "10",
+      "partNumber": "978252",
+      "description": "EXHAUST SOCKET",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "exhaustsys-22-11-940368",
+      "sectionId": "exhaust-system",
+      "figure": "11",
+      "partNumber": "940368",
+      "description": "STUD M8X23/20",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "exhaustsys-23-12-842950",
+      "sectionId": "exhaust-system",
+      "figure": "12",
+      "partNumber": "842950",
+      "description": "LOCK NUT M8",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "exhaustsys-24-13-951552",
+      "sectionId": "exhaust-system",
+      "figure": "13",
+      "partNumber": "951552",
+      "description": "EXHAUST PIPE CLAMP ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N non certified"
+    },
+    {
+      "id": "exhaustsys-25-14-297556",
+      "sectionId": "exhaust-system",
+      "figure": "14",
+      "partNumber": "297556",
+      "description": "SAFETY WIRE 0.8 2000MM",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N non certified"
+    },
+    {
+      "id": "exhaust912-01-01-973380",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "01",
+      "partNumber": "973380",
+      "description": "EXHAUST ASSORTMENT STAINLESS STEEL",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Ill. no. 2-10"
+    },
+    {
+      "id": "exhaust912-02-01-973383",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "01",
+      "partNumber": "973383",
+      "description": "EXHAUST ASSORTMENT STAINLESS STEEL",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "exhaust912-03-02-973385",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "02",
+      "partNumber": "973385",
+      "description": "MUFFLER ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "end pipe diameter 40 mm. mount with 973390 still valid"
+    },
+    {
+      "id": "exhaust912-04-02-973388",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "02",
+      "partNumber": "973388",
+      "description": "MUFFLER ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N end pipe diameter 40 mm. mount with 973389"
+    },
+    {
+      "id": "exhaust912-05-03-973010",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "03",
+      "partNumber": "973010",
+      "description": "EXHAUST PIPE ASSY. CYL. 1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "exhaust912-06-03-973013",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "03",
+      "partNumber": "973013",
+      "description": "EXHAUST PIPE ASSY. CYL. 1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "exhaust912-07-04-973023",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "04",
+      "partNumber": "973023",
+      "description": "EXHAUST PIPE ASSY. CYL. 2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "exhaust912-08-04-973020",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "04",
+      "partNumber": "973020",
+      "description": "EXHAUST PIPE ASSY. CYL. 2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "exhaust912-09-05-973033",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "05",
+      "partNumber": "973033",
+      "description": "EXHAUST PIPE ASSY. CYL. 3",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "exhaust912-10-05-973030",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "05",
+      "partNumber": "973030",
+      "description": "EXHAUST PIPE ASSY. CYL. 3",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "exhaust912-11-06-973043",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "06",
+      "partNumber": "973043",
+      "description": "EXHAUST PIPE ASSY. CYL. 4",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "exhaust912-12-06-973040",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "06",
+      "partNumber": "973040",
+      "description": "EXHAUST PIPE ASSY. CYL. 4",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "exhaust912-13-07-973389",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "07",
+      "partNumber": "973389",
+      "description": "EXHAUST ELBOW. STAINLESS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N pipe diameter 42 mm mount with 973388 use safety wire"
+    },
+    {
+      "id": "exhaust912-14-07-973390",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "07",
+      "partNumber": "973390",
+      "description": "EXHAUST ELBOW. STAINLESS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "pipe diameter 40 mm mount with 973385 use 938796 spring still valid"
+    },
+    {
+      "id": "exhaust912-15-08-938796",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "08",
+      "partNumber": "938796",
+      "description": "SPRING 66 MM",
+      "qty": {
+        "912ul": 9,
+        "912uls": 9,
+        "914ul": 0
+      },
+      "note": "stainless"
+    },
+    {
+      "id": "exhaust912-16-09-951552",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "09",
+      "partNumber": "951552",
+      "description": "EXHAUST PIPE CLAMP ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "exhaust912-17-09-951550",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "09",
+      "partNumber": "951550",
+      "description": "EXHAUST PIPE CLAMP ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "exhaust912-18-10-841115",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "10",
+      "partNumber": "841115",
+      "description": "HEX. SCREW M8X1X10",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "exhaust912-19-11-297555",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "11",
+      "partNumber": "297555",
+      "description": "SAFETY WIRE 0.8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "as required"
+    },
+    {
+      "id": "exhaust912-20-12-940368",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "12",
+      "partNumber": "940368",
+      "description": "STUD M8X23/20",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "exhaust912-21-13-842950",
+      "sectionId": "exhaust-system-912-series",
+      "figure": "13",
+      "partNumber": "842950",
+      "description": "LOCK NUT M8",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "mufflerturbo-01-01-851294",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "01",
+      "partNumber": "851294",
+      "description": "TURBO BRACKET",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-02-02-887129",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "02",
+      "partNumber": "887129",
+      "description": "TURBOCHARGER ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Ill. no. 2-3"
+    },
+    {
+      "id": "mufflerturbo-03-03-940583",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "03",
+      "partNumber": "940583",
+      "description": "HEX. SCREW M8X16 STAINLESS STEEL",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "mufflerturbo-04-04-940173",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "04",
+      "partNumber": "940173",
+      "description": "STUD M8X19.5/13",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      },
+      "note": "Stainless"
+    },
+    {
+      "id": "mufflerturbo-05-05-979407",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "05",
+      "partNumber": "979407",
+      "description": "MUFFLER ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-06-06-250313",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "06",
+      "partNumber": "250313",
+      "description": "WASHER 8.4 STAINLESS STEEL",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "mufflerturbo-07-07-242203",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "07",
+      "partNumber": "242203",
+      "description": "HEX.NUT M8 STAINLESS STEEL",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 10
+      }
+    },
+    {
+      "id": "mufflerturbo-08-08-250646",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "08",
+      "partNumber": "250646",
+      "description": "SEALING RING - A 12X18",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-09-08-250640",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "08",
+      "partNumber": "250640",
+      "description": "SEALING RING A 12X18",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "mufflerturbo-10-09-956486",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "09",
+      "partNumber": "956486",
+      "description": "VALVE HOUSING",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-11-10-851392",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "10",
+      "partNumber": "851392",
+      "description": "CABLE SUPPORT",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-12-11-242032",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "11",
+      "partNumber": "242032",
+      "description": "HEX.NUT BM6 6.6",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      },
+      "note": "see chapter 76-10-00"
+    },
+    {
+      "id": "mufflerturbo-13-12-897941",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "12",
+      "partNumber": "897941",
+      "description": "CABLE BOWDEN ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "still valid see chapter 76-10-00"
+    },
+    {
+      "id": "mufflerturbo-14-12-897942",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "12",
+      "partNumber": "897942",
+      "description": "CABLE BOWDEN ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "mufflerturbo-15-13-640601",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "13",
+      "partNumber": "640601",
+      "description": "HEX.SCREW - M6X55",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-16-14-838232",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "14",
+      "partNumber": "838232",
+      "description": "TENSION SPRING. STAINLESS STEEL",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-17-15-960082",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "15",
+      "partNumber": "960082",
+      "description": "DAMPING HOSE 5X8 110 MM",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "mufflerturbo-18-15-960080",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "15",
+      "partNumber": "960080",
+      "description": "SILICONE TUBE 5X8",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "as required in a roll by meter non certified"
+    },
+    {
+      "id": "mufflerturbo-19-16-430225",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "16",
+      "partNumber": "430225",
+      "description": "O-RING - 15.9X2.3",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-20-17-956495",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "17",
+      "partNumber": "956495",
+      "description": "OIL SUMP ASSY",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "replaced by 656770 + 640860 + 250057 still valid"
+    },
+    {
+      "id": "mufflerturbo-21-17-656770",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "17",
+      "partNumber": "656770",
+      "description": "OIL SUMP ASSY",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-22-18-953280",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "18",
+      "partNumber": "953280",
+      "description": "SUPPORT PLATE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-23-19-641343",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "19",
+      "partNumber": "641343",
+      "description": "STUD M8X30/13",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-24-20-940583",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "20",
+      "partNumber": "940583",
+      "description": "HEX. SCREW M8X16 STAINLESS STEEL",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-25-21-979416",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "21",
+      "partNumber": "979416",
+      "description": "EXHAUST MANIFOLD ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Stainless"
+    },
+    {
+      "id": "mufflerturbo-26-22-240083",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "22",
+      "partNumber": "240083",
+      "description": "ALLEN SCREW M8X25 STAINLESS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "mufflerturbo-27-23-953304",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "23",
+      "partNumber": "953304",
+      "description": "MANIFOLD BRACKET ASSY. STAINLESS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-28-24-240083",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "24",
+      "partNumber": "240083",
+      "description": "ALLEN SCREW M8X25 STAINLESS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "additional washer part no. 250313 with manifold bracket part no. 953304"
+    },
+    {
+      "id": "mufflerturbo-29-25-847841",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "25",
+      "partNumber": "847841",
+      "description": "SPACER 10.5/17/15",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-30-26-851303",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "26",
+      "partNumber": "851303",
+      "description": "EXHAUST BRACKET",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-31-27-927411",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "27",
+      "partNumber": "927411",
+      "description": "WASHER 10.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-32-28-945833",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "28",
+      "partNumber": "945833",
+      "description": "LOCK WASHER A10",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-33-29-640572",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "29",
+      "partNumber": "640572",
+      "description": "ALLEN SCREW M10X50",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-34-30-926401",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "30",
+      "partNumber": "926401",
+      "description": "WASHER 8.4/15/1",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 72-20-00 as required"
+    },
+    {
+      "id": "mufflerturbo-35-30-926400",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "30",
+      "partNumber": "926400",
+      "description": "WASHER 8.4/15/0.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 72-20-00 as required"
+    },
+    {
+      "id": "mufflerturbo-36-30-926402",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "30",
+      "partNumber": "926402",
+      "description": "WASHER 8.4/15/1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 72-20-00 as required"
+    },
+    {
+      "id": "mufflerturbo-37-31-440107",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "31",
+      "partNumber": "440107",
+      "description": "ALLEN SCREW M8X50",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 72-20-00 as required"
+    },
+    {
+      "id": "mufflerturbo-38-32-851312",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "32",
+      "partNumber": "851312",
+      "description": "CLAMP 120",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-39-33-940368",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "33",
+      "partNumber": "940368",
+      "description": "STUD M8X23/20",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "mufflerturbo-40-34-842950",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "34",
+      "partNumber": "842950",
+      "description": "LOCK NUT M8",
+      "qty": {
+        "912ul": 8,
+        "912uls": 8,
+        "914ul": 8
+      }
+    },
+    {
+      "id": "mufflerturbo-41-35-979427",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "35",
+      "partNumber": "979427",
+      "description": "EXHAUST PIPE ASSY. CYL. 1",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022 stainless still valid"
+    },
+    {
+      "id": "mufflerturbo-42-35-979428",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "35",
+      "partNumber": "979428",
+      "description": "EXHAUST PIPE ASSY. CYL. 1",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Status N SI-914-022 stainless"
+    },
+    {
+      "id": "mufflerturbo-43-36-979437",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "36",
+      "partNumber": "979437",
+      "description": "EXHAUST PIPE ASSY. CYL. 2",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022 stainless still valid"
+    },
+    {
+      "id": "mufflerturbo-44-36-979438",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "36",
+      "partNumber": "979438",
+      "description": "EXHAUST PIPE ASSY. CYL. 2",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Status N SI-914-022 stainless"
+    },
+    {
+      "id": "mufflerturbo-45-37-979448",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "37",
+      "partNumber": "979448",
+      "description": "EXHAUST PIPE ASSY. CYL. 3",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Status N SI-914-022 stainless"
+    },
+    {
+      "id": "mufflerturbo-46-37-979447",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "37",
+      "partNumber": "979447",
+      "description": "EXHAUST PIPE ASSY. CYL. 3",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022 stainless still valid"
+    },
+    {
+      "id": "mufflerturbo-47-38-979457",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "38",
+      "partNumber": "979457",
+      "description": "EXHAUST PIPE ASSY. CYL. 4",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022 stainless still valid"
+    },
+    {
+      "id": "mufflerturbo-48-38-979458",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "38",
+      "partNumber": "979458",
+      "description": "EXHAUST PIPE ASSY. CYL. 4",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Status N SI-914-022 stainless"
+    },
+    {
+      "id": "mufflerturbo-49-39-841115",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "39",
+      "partNumber": "841115",
+      "description": "HEX. SCREW M8X1X10",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "mufflerturbo-50-40-956476",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "40",
+      "partNumber": "956476",
+      "description": "TURBO PRESSURE OIL LINE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-51-41-851111",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "41",
+      "partNumber": "851111",
+      "description": "CABLE CLAMP 8/M5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-52-42-942021",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "42",
+      "partNumber": "942021",
+      "description": "LOCK NUT - M5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-53-43-241842",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "43",
+      "partNumber": "241842",
+      "description": "ALLEN SCREW - M5X12",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-54-44-239131",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "44",
+      "partNumber": "239131",
+      "description": "COMPRESSION SPRING 22.0",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-55-45-232441",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "45",
+      "partNumber": "232441",
+      "description": "BALL - 5.556 G28 - 1.3505",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-56-46-950141",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "46",
+      "partNumber": "950141",
+      "description": "SEALING RING A 8X13",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-57-47-840730",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "47",
+      "partNumber": "840730",
+      "description": "BANJO BOLT M8X1X17",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "With imprinting oil"
+    },
+    {
+      "id": "mufflerturbo-58-48-956470",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "48",
+      "partNumber": "956470",
+      "description": "TURBO OIL SUCTION LINE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "mufflerturbo-59-49-851116",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "49",
+      "partNumber": "851116",
+      "description": "CABLE CLAMP 5/M5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-60-50-241842",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "50",
+      "partNumber": "241842",
+      "description": "ALLEN SCREW - M5X12",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-61-51-942021",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "51",
+      "partNumber": "942021",
+      "description": "LOCK NUT - M5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-62-52-640860",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "52",
+      "partNumber": "640860",
+      "description": "PLUG SCREW ASSY. M22x1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "mufflerturbo-63-53-250057",
+      "sectionId": "muffler-turbocharger-oil-sump",
+      "figure": "53",
+      "partNumber": "250057",
+      "description": "O-RING - 18X2.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "oilpump912-01-01-911815",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "01",
+      "partNumber": "911815",
+      "description": "OIL PUMP HOUSING ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-02-02-432681",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "02",
+      "partNumber": "432681",
+      "description": "BALL - 8.5 G20 - 1.3505",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-03-03-857230",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "03",
+      "partNumber": "857230",
+      "description": "VALVE PISTON",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "oilpump912-04-04-838122",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "04",
+      "partNumber": "838122",
+      "description": "COMPRESSION SPRING L39.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-05-05-227055",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "05",
+      "partNumber": "227055",
+      "description": "SHIM 8.2X1.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "as required"
+    },
+    {
+      "id": "oilpump912-06-06-841983",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "06",
+      "partNumber": "841983",
+      "description": "PLUG SCREW M12X1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-07-07-924424",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "07",
+      "partNumber": "924424",
+      "description": "OIL FILTER NIPPLE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-08-08-825016",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "08",
+      "partNumber": "825016",
+      "description": "OIL FILTER PACKAGED",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-09-09-456180",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "09",
+      "partNumber": "456180",
+      "description": "OIL PRESSURE SENSOR M10X1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020 SI-914-022"
+    },
+    {
+      "id": "oilpump912-10-10-864250",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "10",
+      "partNumber": "864250",
+      "description": "OIL PRESSURE SENSOR WIRE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020 SI-914-022"
+    },
+    {
+      "id": "oilpump912-11-11-840461",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "11",
+      "partNumber": "840461",
+      "description": "NIPPLE 13.2/9.5-M14X1.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-12-12-230387",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "12",
+      "partNumber": "230387",
+      "description": "GASKET RING 14.2/18/2",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-13-13-956577",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "13",
+      "partNumber": "956577",
+      "description": "ADAPTER M18x1.5/M14x1.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "oilpump912-14-13-956577",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "13",
+      "partNumber": "956577",
+      "description": "ADAPTER M18x1.5/M14x1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-15-14-956643",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "14",
+      "partNumber": "956643",
+      "description": "ADAPTER 3/4-16 UNF/ M14 X 1.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-16-15-837129",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "15",
+      "partNumber": "837129",
+      "description": "OIL PUMP SHAFT ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-17-16-232732",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "16",
+      "partNumber": "232732",
+      "description": "NEEDLE PIN B 4X15.8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-18-17-956278",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "17",
+      "partNumber": "956278",
+      "description": "ROTOR SET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-19-18-430411",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "18",
+      "partNumber": "430411",
+      "description": "O-RING - 57X3",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-20-22-232732",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "22",
+      "partNumber": "232732",
+      "description": "NEEDLE PIN B 4X15.8",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-21-23-911711",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "23",
+      "partNumber": "911711",
+      "description": "OIL PUMP COVER",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-22-24-950410",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "24",
+      "partNumber": "950410",
+      "description": "O-RING - 30X2.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-23-25-250460",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "25",
+      "partNumber": "250460",
+      "description": "O-RING - 11X2.7- BLACK",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-24-26-827962",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "26",
+      "partNumber": "827962",
+      "description": "WASHER - A 6.4",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-25-27-241762",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "27",
+      "partNumber": "241762",
+      "description": "ALLEN SCREW - M6x50",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-26-28-230150",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "28",
+      "partNumber": "230150",
+      "description": "SEALING RING A 10X14",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-27-29-641733",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "29",
+      "partNumber": "641733",
+      "description": "PLUG SCREW M10X1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-28-30-956460",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "30",
+      "partNumber": "956460",
+      "description": "PRESSURE OIL LINE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "see chapter 61-20-00"
+    },
+    {
+      "id": "oilpump912-29-36-940876",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "36",
+      "partNumber": "940876",
+      "description": "BANJO BOLT M10X1X23",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-30-36-241073",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "36",
+      "partNumber": "241073",
+      "description": "BANJO BOLT M10X1X19",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-31-37-965531",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "37",
+      "partNumber": "965531",
+      "description": "TEMPERATURE SENSOR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "oilpump912-32-39-xxx",
+      "sectionId": "oil-pump-assy-912",
+      "figure": "39",
+      "partNumber": "XXX",
+      "description": "CONNECTOR SET OPS AND MAPS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "see chapter 76-20-00 for oil pressure sensor part no. 456180 without wire"
+    },
+    {
+      "id": "oilpump914-01-01-911815",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "01",
+      "partNumber": "911815",
+      "description": "OIL PUMP HOUSING ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-02-02-432681",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "02",
+      "partNumber": "432681",
+      "description": "BALL - 8.5 G20 - 1.3505",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-03-03-857230",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "03",
+      "partNumber": "857230",
+      "description": "VALVE PISTON",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "optional"
+    },
+    {
+      "id": "oilpump914-04-04-838122",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "04",
+      "partNumber": "838122",
+      "description": "COMPRESSION SPRING L39.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-05-05-227055",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "05",
+      "partNumber": "227055",
+      "description": "SHIM 8.2X1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "oilpump914-06-06-841983",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "06",
+      "partNumber": "841983",
+      "description": "PLUG SCREW M12X1",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-07-07-924424",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "07",
+      "partNumber": "924424",
+      "description": "OIL FILTER NIPPLE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-08-08-825016",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "08",
+      "partNumber": "825016",
+      "description": "OIL FILTER PACKAGED",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-09-09-456180",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "09",
+      "partNumber": "456180",
+      "description": "OIL PRESSURE SENSOR M10X1",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-912-020 SI-914-022"
+    },
+    {
+      "id": "oilpump914-10-10-864250",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "10",
+      "partNumber": "864250",
+      "description": "OIL PRESSURE SENSOR WIRE ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-912-020 SI-914-022"
+    },
+    {
+      "id": "oilpump914-11-11-840461",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "11",
+      "partNumber": "840461",
+      "description": "NIPPLE 13.2/9.5-M14X1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-12-12-230387",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "12",
+      "partNumber": "230387",
+      "description": "GASKET RING 14.2/18/2",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-13-13-956577",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "13",
+      "partNumber": "956577",
+      "description": "ADAPTER M18x1.5/M14x1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-14-14-956643",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "14",
+      "partNumber": "956643",
+      "description": "ADAPTER 3/4-16 UNF/ M14 X 1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-15-15-837127",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "15",
+      "partNumber": "837127",
+      "description": "OIL PUMP SHAFT ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-16-16-232732",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "16",
+      "partNumber": "232732",
+      "description": "NEEDLE PIN B 4X15.8",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "oilpump914-17-17-956278",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "17",
+      "partNumber": "956278",
+      "description": "ROTOR SET",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-18-18-430411",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "18",
+      "partNumber": "430411",
+      "description": "O-RING - 57X3",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-19-19-810596",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "19",
+      "partNumber": "810596",
+      "description": "OIL PUMP HOUSING",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "oil seal together with part no. 810595 or 810596"
+    },
+    {
+      "id": "oilpump914-20-20-256346",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "20",
+      "partNumber": "256346",
+      "description": "ROTOR SET",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-21-21-430175",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "21",
+      "partNumber": "430175",
+      "description": "O-RING - 46X3",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-22-22-232432",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "22",
+      "partNumber": "232432",
+      "description": "NEEDLE PIN B 4X29.8",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "oilpump914-23-23-911711",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "23",
+      "partNumber": "911711",
+      "description": "OIL PUMP COVER",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-24-24-950410",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "24",
+      "partNumber": "950410",
+      "description": "O-RING - 30X2.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-25-25-250460",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "25",
+      "partNumber": "250460",
+      "description": "O-RING - 11X2.7 BLACK",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      }
+    },
+    {
+      "id": "oilpump914-26-26-827962",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "26",
+      "partNumber": "827962",
+      "description": "WASHER - A 6.4",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "oilpump914-27-27-241263",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "27",
+      "partNumber": "241263",
+      "description": "ALLEN SCREW - M6x65",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "oilpump914-28-28-230150",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "28",
+      "partNumber": "230150",
+      "description": "SEALING RING A 10X14",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 7
+      }
+    },
+    {
+      "id": "oilpump914-29-30-956460",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "30",
+      "partNumber": "956460",
+      "description": "PRESSURE OIL LINE ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 61-20-00"
+    },
+    {
+      "id": "oilpump914-30-31-847229",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "31",
+      "partNumber": "847229",
+      "description": "SPACER 10.5/15/11",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-31-32-956476",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "32",
+      "partNumber": "956476",
+      "description": "TURBO PRESSURE OIL LINE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 78-10-00"
+    },
+    {
+      "id": "oilpump914-32-33-241072",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "33",
+      "partNumber": "241072",
+      "description": "BANJO BOLT M10X1X30",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see latest issue of Maintenance Manual Heavy (MMH) check depth of thread in oil pump housing"
+    },
+    {
+      "id": "oilpump914-33-33-940877",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "33",
+      "partNumber": "940877",
+      "description": "BANJO BOLT M10X1X34",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see latest issue of Maintenance Manual Heavy (MMH) check depth of thread in oil pump housing"
+    },
+    {
+      "id": "oilpump914-34-34-956470",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "34",
+      "partNumber": "956470",
+      "description": "TURBO OIL SUCTION LINE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 78-10-00"
+    },
+    {
+      "id": "oilpump914-35-35-956314",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "35",
+      "partNumber": "956314",
+      "description": "HOSE NIPPLE 4/6",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-36-36-940876",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "36",
+      "partNumber": "940876",
+      "description": "BANJO BOLT M10X1X23",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      },
+      "note": "see latest issue of Maintenance Manual Heavy (MMH) check depth of thread in oil pump housing"
+    },
+    {
+      "id": "oilpump914-37-36-241073",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "36",
+      "partNumber": "241073",
+      "description": "BANJO BOLT M10X1X19",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 2
+      },
+      "note": "see latest issue of Maintenance Manual Heavy (MMH) check depth of thread in oil pump housing"
+    },
+    {
+      "id": "oilpump914-38-37-965531",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "37",
+      "partNumber": "965531",
+      "description": "TEMPERATURE SENSOR",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "oilpump914-39-38-430105",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "38",
+      "partNumber": "430105",
+      "description": "OIL SEAL A 10X18X4 FPM",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "oil seal together with part no. 810595 or 810596"
+    },
+    {
+      "id": "oilpump914-40-39-xxx",
+      "sectionId": "oil-pump-assy-914",
+      "figure": "39",
+      "partNumber": "XXX",
+      "description": "CONNECTOR SET OPS AND MAPS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 76-20-00 for oil pressure sensor part no. 456180 without wire"
+    },
+    {
+      "id": "oilrad-01-01-886012",
+      "sectionId": "oil-radiator",
+      "figure": "01",
+      "partNumber": "886012",
+      "description": "OIL RADIATOR SET METRIC",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 2-5 Cooling area 142 cm2 / 22 sq in Metric connections SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-02-01-886011",
+      "sectionId": "oil-radiator",
+      "figure": "01",
+      "partNumber": "886011",
+      "description": "OIL RADIATOR SET METRIC",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 2-5 Cooling area 125 cm2 / 19.38 sq in Metric connections SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-03-01-886015",
+      "sectionId": "oil-radiator",
+      "figure": "01",
+      "partNumber": "886015",
+      "description": "OIL RADIATOR SET UNF",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 2. 3. 4. 10 Cooling area 234 cm2 / 36.27 sq in UNF connections SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-04-01-886013",
+      "sectionId": "oil-radiator",
+      "figure": "01",
+      "partNumber": "886013",
+      "description": "OIL RADIATOR SET METRIC",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 2-5 Cooling area 234 cm2 / 36.27 sq in Metric connections SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-05-02-886001",
+      "sectionId": "oil-radiator",
+      "figure": "02",
+      "partNumber": "886001",
+      "description": "OIL RADIATOR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 0,
+        "914ul": 0
+      },
+      "note": "Cooling area 125 cm2 / 19.38 sq in Height of connectors for 5 mm reduced SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-06-02-886003",
+      "sectionId": "oil-radiator",
+      "figure": "02",
+      "partNumber": "886003",
+      "description": "OIL RADIATOR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Cooling area 142 cm2 / 22 sq in Height of connectors for 5 mm reduced SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-07-02-886005",
+      "sectionId": "oil-radiator",
+      "figure": "02",
+      "partNumber": "886005",
+      "description": "OIL RADIATOR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Cooling area 234 cm2 / 36.27 sq in Height of connectors for 5 mm reduced SI-912-024 SI-912i-008 SI-914-025 SI-PAC-014 optional"
+    },
+    {
+      "id": "oilrad-08-03-956645",
+      "sectionId": "oil-radiator",
+      "figure": "03",
+      "partNumber": "956645",
+      "description": "SCREW CONNECTION SET UNF",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 3. 4. 10 SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-09-03-242879",
+      "sectionId": "oil-radiator",
+      "figure": "03",
+      "partNumber": "242879",
+      "description": "HEX.NUT M22X1.5 H=6",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "SI-PAC-013 optional not available"
+    },
+    {
+      "id": "oilrad-10-03-242873",
+      "sectionId": "oil-radiator",
+      "figure": "03",
+      "partNumber": "242873",
+      "description": "HEX.NUT M22X1.5 H=6",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-11-04-956615",
+      "sectionId": "oil-radiator",
+      "figure": "04",
+      "partNumber": "956615",
+      "description": "SCREW CONNECTION SET STRAIGHT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 4. 6. 9 SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-12-04-956585",
+      "sectionId": "oil-radiator",
+      "figure": "04",
+      "partNumber": "956585",
+      "description": "SCREW CONNECTION SET BENT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 4. 6. 7 SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-13-04-230387",
+      "sectionId": "oil-radiator",
+      "figure": "04",
+      "partNumber": "230387",
+      "description": "GASKET RING 14.2/18/2",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-14-05-840461",
+      "sectionId": "oil-radiator",
+      "figure": "05",
+      "partNumber": "840461",
+      "description": "NIPPLE 13.2/9.5-M14X1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-15-06-956577",
+      "sectionId": "oil-radiator",
+      "figure": "06",
+      "partNumber": "956577",
+      "description": "ADAPTER M18x1.5/M14x1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-16-07-956580",
+      "sectionId": "oil-radiator",
+      "figure": "07",
+      "partNumber": "956580",
+      "description": "BENT SOCKET ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SI-PAC-013 as required"
+    },
+    {
+      "id": "oilrad-17-08-924585",
+      "sectionId": "oil-radiator",
+      "figure": "08",
+      "partNumber": "924585",
+      "description": "ANGULAR TUBE M14X1.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SI-PAC-013 as required"
+    },
+    {
+      "id": "oilrad-18-09-956610",
+      "sectionId": "oil-radiator",
+      "figure": "09",
+      "partNumber": "956610",
+      "description": "HOSE NIPPLE WITH UNION NUT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SI-PAC-013 as required"
+    },
+    {
+      "id": "oilrad-19-10-956643",
+      "sectionId": "oil-radiator",
+      "figure": "10",
+      "partNumber": "956643",
+      "description": "ADAPTER 3/4-16 UNF/ M14 X 1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-20-11-250735",
+      "sectionId": "oil-radiator",
+      "figure": "11",
+      "partNumber": "250735",
+      "description": "GASKET RING A 14X20",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-21-12-956685",
+      "sectionId": "oil-radiator",
+      "figure": "12",
+      "partNumber": "956685",
+      "description": "ADAPTER M22X1.5 / M22X1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-22-13-956681",
+      "sectionId": "oil-radiator",
+      "figure": "13",
+      "partNumber": "956681",
+      "description": "ADAPTER 7/8-14 UNF / M22X1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-23-13-956680",
+      "sectionId": "oil-radiator",
+      "figure": "13",
+      "partNumber": "956680",
+      "description": "ADAPTER 7/8-14 UNF / M22X1.5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SI-PAC-013 optional not available"
+    },
+    {
+      "id": "oilrad-24-14-956648",
+      "sectionId": "oil-radiator",
+      "figure": "14",
+      "partNumber": "956648",
+      "description": "ADAPTER 7/8-14 UNF/ M14 X 1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "oilrad-25-15-956572",
+      "sectionId": "oil-radiator",
+      "figure": "15",
+      "partNumber": "956572",
+      "description": "ADAPTER M22X1.5/ M14X1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "SI-PAC-013 optional"
+    },
+    {
+      "id": "coolair-01-01-622052",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "01",
+      "partNumber": "622052",
+      "description": "EXPANSION TANK 90 DEGREE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 1-2 optional"
+    },
+    {
+      "id": "coolair-02-02-922072",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "02",
+      "partNumber": "922072",
+      "description": "RADIATOR CAP WITH GASKET 1.2 BAR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SI-912-020 SI-914-022"
+    },
+    {
+      "id": "coolair-03-03-622053",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "03",
+      "partNumber": "622053",
+      "description": "EXPANSION TANK 180 DEGREE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 2-3 optional"
+    },
+    {
+      "id": "coolair-04-04-641071",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "04",
+      "partNumber": "641071",
+      "description": "HEX.SCREW - M6X6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required"
+    },
+    {
+      "id": "coolair-05-05-897506",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "05",
+      "partNumber": "897506",
+      "description": "WARNING LABEL",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "coolair-06-06-898490",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "06",
+      "partNumber": "898490",
+      "description": "WARNING LABEL EVANS COOLANT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "as required optional"
+    },
+    {
+      "id": "coolair-07-07-975794",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "07",
+      "partNumber": "975794",
+      "description": "COOLING AIR BAFFLE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Cooling air baffle for tractor. color black optional"
+    },
+    {
+      "id": "coolair-08-07-975793",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "07",
+      "partNumber": "975793",
+      "description": "COOLING AIR BAFFLE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Cooling air baffle for tractor. color white optional"
+    },
+    {
+      "id": "coolair-09-08-975792",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "08",
+      "partNumber": "975792",
+      "description": "COOLING AIR BAFFLE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 8-9 Cooling air baffle for pusher color white not available optional"
+    },
+    {
+      "id": "coolair-10-08-975798",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "08",
+      "partNumber": "975798",
+      "description": "COOLING AIR BAFFLE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Ill. no. 8-9 Cooling air baffle for pusher color black optional"
+    },
+    {
+      "id": "coolair-11-09-201160",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "09",
+      "partNumber": "201160",
+      "description": "RUBBER GROMMET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "optional"
+    },
+    {
+      "id": "coolair-12-10-997084",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "10",
+      "partNumber": "997084",
+      "description": "RADIATOR",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SI-PAC-010 optional"
+    },
+    {
+      "id": "coolair-13-11-881530",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "11",
+      "partNumber": "881530",
+      "description": "RADIATOR RETROFIT KIT",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "Use together with part no. 997083 For retrofitting of old radiator part no. 997082"
+    },
+    {
+      "id": "coolair-14-12-922327",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "12",
+      "partNumber": "922327",
+      "description": "OVERFLOW BOTTLE WITH CAP",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SB-912-039 SB-914-029"
+    },
+    {
+      "id": "coolair-15-13-940551",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "13",
+      "partNumber": "940551",
+      "description": "HOSE NIPPLE M6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SB-912-039 SB-914-029"
+    },
+    {
+      "id": "coolair-16-14-242213",
+      "sectionId": "cooling-air-baffle-radiator",
+      "figure": "14",
+      "partNumber": "242213",
+      "description": "HEX.NUT M6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "SB-912-039 SB-914-029"
+    },
+    {
+      "id": "flydat-01-01-966370",
+      "sectionId": "flydat-sensor-set",
+      "figure": "01",
+      "partNumber": "966370",
+      "description": "THERMO COUPLE NICR-NI K",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "For exhaust gas temperature (EGT) optional"
+    },
+    {
+      "id": "flydat-02-02-950141",
+      "sectionId": "flydat-sensor-set",
+      "figure": "02",
+      "partNumber": "950141",
+      "description": "SEALING RING A 8X13",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "optional"
+    },
+    {
+      "id": "flydat-03-03-842758",
+      "sectionId": "flydat-sensor-set",
+      "figure": "03",
+      "partNumber": "842758",
+      "description": "SOLDERING NUT M8X1",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 4
+      },
+      "note": "For EGT sensor optional"
+    },
+    {
+      "id": "flydat-04-04-966385",
+      "sectionId": "flydat-sensor-set",
+      "figure": "04",
+      "partNumber": "966385",
+      "description": "RESISTANCE THERMOMETER M10",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 2
+      },
+      "note": "For cylinder head optional"
+    },
+    {
+      "id": "flydat-05-05-456180",
+      "sectionId": "flydat-sensor-set",
+      "figure": "05",
+      "partNumber": "456180",
+      "description": "OIL PRESSURE SENSOR M10X1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "see chapter 79-20-00"
+    },
+    {
+      "id": "flydat-06-06-864250",
+      "sectionId": "flydat-sensor-set",
+      "figure": "06",
+      "partNumber": "864250",
+      "description": "OIL PRESSURE SENSOR WIRE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "see chapter 79-20-00 cable length 3000 mm"
+    },
+    {
+      "id": "flydat-07-07-881302",
+      "sectionId": "flydat-sensor-set",
+      "figure": "07",
+      "partNumber": "881302",
+      "description": "CONNECTOR SET OPS AND MAPS",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "for oil pressure sensor optional"
+    },
+    {
+      "id": "flydat-08-08-886978",
+      "sectionId": "flydat-sensor-set",
+      "figure": "08",
+      "partNumber": "886978",
+      "description": "SENSOR KIT 912",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "For engine type 912 UL and 912 ULS: 4 x EGT 2 x CHT 1 x OPS + small parts optional"
+    },
+    {
+      "id": "tcu-01-01-966495",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "01",
+      "partNumber": "966495",
+      "description": "WIRING HARNESS",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022"
+    },
+    {
+      "id": "tcu-02-02-966741",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "02",
+      "partNumber": "966741",
+      "description": "TURBOCHARGER CONTROL UNIT (TCU)",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-03-03-295410",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "03",
+      "partNumber": "295410",
+      "description": "SERVO MOTOR",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-04-04-280088",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "04",
+      "partNumber": "280088",
+      "description": "ROPE SHEAVE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-05-05-926180",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "05",
+      "partNumber": "926180",
+      "description": "WASHER 5.2X14.8X1.5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-06-06-945830",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "06",
+      "partNumber": "945830",
+      "description": "LOCK WASHER A5",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-07-07-441341",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "07",
+      "partNumber": "441341",
+      "description": "ALLEN SCREW M5X20",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-08-08-847882",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "08",
+      "partNumber": "847882",
+      "description": "CABLE RETAINER",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-09-09-239015",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "09",
+      "partNumber": "239015",
+      "description": "COMPRESSION SPRING 16.9",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-10-10-853845",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "10",
+      "partNumber": "853845",
+      "description": "CLAMP 5-7 MM",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-11-11-897941",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "11",
+      "partNumber": "897941",
+      "description": "CABLE BOWDEN ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "still valid"
+    },
+    {
+      "id": "tcu-12-11-897942",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "11",
+      "partNumber": "897942",
+      "description": "CABLE BOWDEN ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-13-12-966502",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "12",
+      "partNumber": "966502",
+      "description": "AIRBOX PRESSURE SENSOR",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      }
+    },
+    {
+      "id": "tcu-14-13-274051",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "13",
+      "partNumber": "274051",
+      "description": "STATIC PRESSURE SENSOR",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022 current issue"
+    },
+    {
+      "id": "tcu-15-14-924990",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "14",
+      "partNumber": "924990",
+      "description": "RETAINING PLATE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "SI-914-022 current issue optional"
+    },
+    {
+      "id": "tcu-16-15-874313",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "15",
+      "partNumber": "874313",
+      "description": "3-WAY SOLENOID VALVE ASSY.",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "see chapter 73-10-00"
+    },
+    {
+      "id": "tcu-17-16-xxx",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "16",
+      "partNumber": "XXX",
+      "description": "CALIBRATION-SET",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "For authorized distributors only optional not available"
+    },
+    {
+      "id": "tcu-18-17-660772",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "17",
+      "partNumber": "660772",
+      "description": "RUBBER BUFFER 10X15XM4",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 4
+      }
+    },
+    {
+      "id": "tcu-19-18-666012",
+      "sectionId": "turbocharger-control-unit",
+      "figure": "18",
+      "partNumber": "666012",
+      "description": "CONNECTOR CABLE",
+      "qty": {
+        "912ul": 0,
+        "912uls": 0,
+        "914ul": 1
+      },
+      "note": "Connector cable. wiring harness part no. 966492 with sensor part no. 274051 SI-914-022"
     }
   ]
 }
