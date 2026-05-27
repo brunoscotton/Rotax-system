@@ -128,6 +128,12 @@ const nestedCategories = [
     thumb: "/assets/rotax-912is-fuel-pump-assy-thumb.png"
   },
   {
+    id: "fuel-system-legacy",
+    label: "Fuel Pump Assembly-Fuel Hose Assembly-Airbox Assembly",
+    title: "Sistema de combustivel",
+    thumb: "/assets/rotax-fuel-system-1-12-thumb.png"
+  },
+  {
     id: "ignition-912is",
     label: "Ignition",
     title: "Ignicao",
@@ -220,7 +226,7 @@ function categoriesForEngine(engineId) {
     { label: "Exhaust", categoryId: "exhaust" },
     { label: "Flydat, Sensor Set", engineIds: legacyEngines },
     { label: "Fuel Injector", engineIds: ["912is"] },
-    { label: "Fuel Pump Assembly-Fuel Hose Assembly-Airbox Assembly", engineIds: legacyEngines },
+    { label: "Fuel Pump Assembly-Fuel Hose Assembly-Airbox Assembly", categoryId: "fuel-system-legacy", engineIds: legacyEngines },
     { label: "Fuel Pump Assembly", categoryId: "fuel-pump-912is", engineIds: ["912is"] },
     { label: "Governors" },
     { label: "Ignition", categoryId: "ignition-912is", engineIds: ["912is"] },

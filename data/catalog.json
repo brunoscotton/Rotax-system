@@ -3524,6 +3524,39 @@
       "image": "/assets/rotax-912is-starters-page.png",
       "thumb": "/assets/rotax-912is-starters-thumb.png",
       "hotspots": []
+    },
+    {
+      "id": "fuel-system-1-12",
+      "categoryId": "fuel-system-legacy",
+      "engineIds": [
+        "912ul",
+        "912uls"
+      ],
+      "label": "Fuel Pump Assembly",
+      "chapter": "73-10-00",
+      "figure": "73-10-00",
+      "title": "FUEL PUMP ASSY., FUEL HOSE ASSY., AIRBOX ASSY. - itens 1 a 12",
+      "source": "Fuel System IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-fuel-system-1-12-page.png",
+      "thumb": "/assets/rotax-fuel-system-1-12-thumb.png",
+      "hotspots": []
+    },
+    {
+      "id": "fuel-system-13-plus",
+      "categoryId": "fuel-system-legacy",
+      "engineIds": [
+        "912ul",
+        "912uls",
+        "914ul"
+      ],
+      "label": "Fuel Hose Assembly / Airbox Assembly",
+      "chapter": "73-10-00",
+      "figure": "73-10-00",
+      "title": "FUEL PUMP ASSY., FUEL HOSE ASSY., AIRBOX ASSY. - itens 13 em diante",
+      "source": "Fuel System IPC - Edition 05, Revision 01, 2024",
+      "image": "/assets/rotax-fuel-system-13-plus-page.png",
+      "thumb": "/assets/rotax-fuel-system-13-plus-thumb.png",
+      "hotspots": []
     }
   ],
   "items": [
@@ -21586,6 +21619,708 @@
         "912is": 2
       },
       "note": "SI-PAC-017"
+    },
+    {
+      "id": "fuel-system-1-12-001-01-893115",
+      "sectionId": "fuel-system-1-12",
+      "figure": "01",
+      "partNumber": "893115",
+      "description": "FUEL PUMP",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Ill. no. 1-3; Marked with S/N; SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-002-02-631870",
+      "sectionId": "fuel-system-1-12",
+      "figure": "02",
+      "partNumber": "631870",
+      "description": "O-RING - 23.47X2.62",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-1-12-003-03-950228",
+      "sectionId": "fuel-system-1-12",
+      "figure": "03",
+      "partNumber": "950228",
+      "description": "ISOLATING FLANGE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-1-12-004-04-840745",
+      "sectionId": "fuel-system-1-12",
+      "figure": "04",
+      "partNumber": "840745",
+      "description": "NIPPLE 9/5.7",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-005-05-840740",
+      "sectionId": "fuel-system-1-12",
+      "figure": "05",
+      "partNumber": "840740",
+      "description": "NIPPLE 7/3.8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-006-06-250425",
+      "sectionId": "fuel-system-1-12",
+      "figure": "06",
+      "partNumber": "250425",
+      "description": "GASKET RING 10.2/15/1.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-007-07-874337",
+      "sectionId": "fuel-system-1-12",
+      "figure": "07",
+      "partNumber": "874337",
+      "description": "FUEL HOSE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-008-08-874347",
+      "sectionId": "fuel-system-1-12",
+      "figure": "08",
+      "partNumber": "874347",
+      "description": "FUEL HOSE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-009-09-840770",
+      "sectionId": "fuel-system-1-12",
+      "figure": "09",
+      "partNumber": "840770",
+      "description": "ADAPTER 9/16-18 UNF/ M10 X 1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-010-10-840775",
+      "sectionId": "fuel-system-1-12",
+      "figure": "10",
+      "partNumber": "840775",
+      "description": "ADAPTER 1/2-20 UNF/ M10 X 1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "SI-912-020"
+    },
+    {
+      "id": "fuel-system-1-12-011-11-945832",
+      "sectionId": "fuel-system-1-12",
+      "figure": "11",
+      "partNumber": "945832",
+      "description": "LOCK WASHER - A8",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-1-12-012-12-942674",
+      "sectionId": "fuel-system-1-12",
+      "figure": "12",
+      "partNumber": "942674",
+      "description": "HEX. NUT M8 (WS 11mm)",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-001-13-851328",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "13",
+      "partNumber": "851328",
+      "description": "FUEL DISTRIBUTION BLOCK",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-002-14-840518",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "14",
+      "partNumber": "840518",
+      "description": "ALLEN SCREW M5X18",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-003-15-950143",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "15",
+      "partNumber": "950143",
+      "description": "GASKET RING 8.2/13/1.4",
+      "qty": {
+        "912ul": 5,
+        "912uls": 5,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-004-16-956312",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "16",
+      "partNumber": "956312",
+      "description": "HOSE NIPPLE 3/4",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-005-17-840737",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "17",
+      "partNumber": "840737",
+      "description": "BANJO BOLT ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Marked with yellow dot. with orifice; optional"
+    },
+    {
+      "id": "fuel-system-13-plus-006-18-230150",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "18",
+      "partNumber": "230150",
+      "description": "SEALING RING A 10X14",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-007-19-641733",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "19",
+      "partNumber": "641733",
+      "description": "PLUG SCREW M10X1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-008-20-940861",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "20",
+      "partNumber": "940861",
+      "description": "BANJO BOLT M8X1X27",
+      "qty": {
+        "912ul": 3,
+        "912uls": 3,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-009-21-924541",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "21",
+      "partNumber": "924541",
+      "description": "COMPENSATING TUBE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "see image AE IPC 2 4 022; SI-912-020"
+    },
+    {
+      "id": "fuel-system-13-plus-010-22-866716",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "22",
+      "partNumber": "866716",
+      "description": "TIE WRAP 203x7.6 MM",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-011-23-840735",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "23",
+      "partNumber": "840735",
+      "description": "BANJO BOLT M8X1X17",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-012-24-956602",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "24",
+      "partNumber": "956602",
+      "description": "DOUBLE HOSE NIPPLE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Ill. no. 24-25; With fuel pressure gauge connection; optional"
+    },
+    {
+      "id": "fuel-system-13-plus-013-25-963820",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "25",
+      "partNumber": "963820",
+      "description": "PILOT JET 35",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 1
+      },
+      "note": "not available"
+    },
+    {
+      "id": "fuel-system-13-plus-014-25-963829",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "25",
+      "partNumber": "963829",
+      "description": "PILOT JET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Status N"
+    },
+    {
+      "id": "fuel-system-13-plus-015-26-942674",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "26",
+      "partNumber": "942674",
+      "description": "HEX. NUT M8 (WS 11mm)",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-016-27-651430",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "27",
+      "partNumber": "651430",
+      "description": "CABLE CLAMP 12/M8",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-017-28-250315",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "28",
+      "partNumber": "250315",
+      "description": "WASHER - 8",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-018-29-940483",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "29",
+      "partNumber": "940483",
+      "description": "HEX. SCREW - M8X30",
+      "qty": {
+        "912ul": 6,
+        "912uls": 6,
+        "914ul": 0
+      },
+      "note": "see chapter 73-10-00"
+    },
+    {
+      "id": "fuel-system-13-plus-019-31-874911",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "31",
+      "partNumber": "874911",
+      "description": "FUEL HOSE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-020-31-874911",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "31",
+      "partNumber": "874911",
+      "description": "FUEL HOSE ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-021-32-950141",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "32",
+      "partNumber": "950141",
+      "description": "SEALING RING A 8X13",
+      "qty": {
+        "912ul": 6,
+        "912uls": 6,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-022-33-847796",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "33",
+      "partNumber": "847796",
+      "description": "SPACER 8.4/12/7.5",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-023-34-956312",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "34",
+      "partNumber": "956312",
+      "description": "HOSE NIPPLE 3/4",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      }
+    },
+    {
+      "id": "fuel-system-13-plus-024-35-667355",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "35",
+      "partNumber": "667355",
+      "description": "AIRBOX ASSY.",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Ill. no. 35-51; Marked with S/N; For retrofitting following Service; Bulletin has to be noticed; SB-912-044; optional"
+    },
+    {
+      "id": "fuel-system-13-plus-025-36-860985",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "36",
+      "partNumber": "860985",
+      "description": "CONNECTING HOSE 35 MM",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-026-37-853595",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "37",
+      "partNumber": "853595",
+      "description": "CLAMP 59",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-027-38-874680",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "38",
+      "partNumber": "874680",
+      "description": "DRIP TRAY SET",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "Drip tray for airbox part no. 867758.; 667162 and 667167; optional"
+    },
+    {
+      "id": "fuel-system-13-plus-028-39-241440",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "39",
+      "partNumber": "241440",
+      "description": "ADJUSTMENT SCREW M6X0.75",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-029-40-942541",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "40",
+      "partNumber": "942541",
+      "description": "HEX. NUT M6X0.75 HIGHT 3 MM",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-030-41-960151",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "41",
+      "partNumber": "960151",
+      "description": "RUBBER BUFFER 20X15XM6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-031-42-853010",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "42",
+      "partNumber": "853010",
+      "description": "CABLE CLAMP 32/M6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-032-43-927941",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "43",
+      "partNumber": "927941",
+      "description": "WASHER 6.0/12/1",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-033-44-842041",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "44",
+      "partNumber": "842041",
+      "description": "LOCK NUT M6",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-034-45-851370",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "45",
+      "partNumber": "851370",
+      "description": "CLAMP 8.1",
+      "qty": {
+        "912ul": 4,
+        "912uls": 4,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-035-46-860667",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "46",
+      "partNumber": "860667",
+      "description": "HOSE 4x7 200 MM",
+      "qty": {
+        "912ul": 2,
+        "912uls": 2,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-036-46-860660",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "46",
+      "partNumber": "860660",
+      "description": "HOSE 4X7",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "in a roll by meter; non certified; as required"
+    },
+    {
+      "id": "fuel-system-13-plus-037-47-241848",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "47",
+      "partNumber": "241848",
+      "description": "ALLEN SCREW M5X12",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-038-48-847741",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "48",
+      "partNumber": "847741",
+      "description": "GRADUATED SLEEVE",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-039-49-827801",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "49",
+      "partNumber": "827801",
+      "description": "WASHER I- N - 6 - 200 HV",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-040-50-842032",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "50",
+      "partNumber": "842032",
+      "description": "LOCK NUT M5",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-041-51-938030",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "51",
+      "partNumber": "938030",
+      "description": "SPRING",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-042-52-240772",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "52",
+      "partNumber": "240772",
+      "description": "HEX.SCREW - M6X10",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
+    },
+    {
+      "id": "fuel-system-13-plus-043-53-230415",
+      "sectionId": "fuel-system-13-plus",
+      "figure": "53",
+      "partNumber": "230415",
+      "description": "SEALING RING A 6X10",
+      "qty": {
+        "912ul": 1,
+        "912uls": 1,
+        "914ul": 0
+      },
+      "note": "optional"
     }
   ]
 }
