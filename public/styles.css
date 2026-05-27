@@ -91,6 +91,91 @@ button:disabled {
   font-size: 12px;
 }
 
+.global-search {
+  position: relative;
+  flex: 1 1 520px;
+  max-width: 680px;
+}
+
+.global-search input {
+  width: 100%;
+  min-height: 40px;
+  padding: 9px 12px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  outline: 0;
+}
+
+.global-search input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(0, 153, 216, 0.14);
+}
+
+.global-search-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  left: 0;
+  z-index: 40;
+  max-height: min(520px, calc(100vh - 92px));
+  overflow: auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.global-search-menu[hidden] {
+  display: none;
+}
+
+.global-search-result {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.global-search-result:last-child {
+  border-bottom: 0;
+}
+
+.global-result-main {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  text-align: left;
+}
+
+.global-result-main strong {
+  color: var(--blue-dark);
+  font-size: 18px;
+}
+
+.global-result-main span,
+.global-result-main small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.global-result-main small,
+.global-search-empty {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.global-search-empty {
+  padding: 14px;
+}
+
 .cart-button,
 .primary-button,
 .secondary-button,
@@ -694,11 +779,24 @@ td {
 
 @media (max-width: 720px) {
   .topbar {
+    flex-wrap: wrap;
     padding: 0 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .brand-subtitle {
     display: none;
+  }
+
+  .global-search {
+    order: 3;
+    flex-basis: 100%;
+    max-width: none;
+  }
+
+  .global-search-menu {
+    max-height: min(440px, calc(100vh - 142px));
   }
 
   .page {

@@ -6,7 +6,8 @@ const state = {
   catalog: null,
   cart: loadCart(),
   lastQuote: null,
-  search: ""
+  search: "",
+  globalSearch: ""
 };
 
 function loadCart() {
@@ -58,6 +59,49 @@ function itemsFor(engineId, sectionId) {
   return state.catalog.items
     .filter((item) => item.sectionId === sectionId && Number(item.qty?.[engineId] || 0) > 0)
     .sort((a, b) => Number(a.figure) - Number(b.figure));
+}
+
+function currentEngineId() {
+  const [view, engineId] = routeParts();
+  return ["engine", "category", "section"].includes(view) && engineById(engineId) ? engineId : "";
+}
+
+function searchEngines() {
+  const engineId = currentEngineId();
+  const current = engineId ? engineById(engineId) : null;
+  return current ? [current] : state.catalog.engines.filter((engine) => engine.active);
+}
+
+function normalizeSearch(value) {
+  return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function globalSearchResults(query) {
+  const raw = query.trim().toLowerCase();
+  const compact = normalizeSearch(query);
+  if (compact.length < 2) return [];
+
+  const results = [];
+  const engines = searchEngines();
+  for (const item of state.catalog.items) {
+    const section = sectionById(item.sectionId);
+    if (!section) continue;
+
+    const partCompact = normalizeSearch(item.partNumber);
+    const haystack = normalizeSearch(`${item.partNumber} ${item.description} ${item.note || ""} ${section.label}`);
+    if (!haystack.includes(compact) && !String(item.description || "").toLowerCase().includes(raw)) continue;
+
+    for (const engine of engines) {
+      if (!section.engineIds.includes(engine.id) || Number(item.qty?.[engine.id] || 0) <= 0) continue;
+      const exact = partCompact === compact ? 0 : 1;
+      const starts = partCompact.startsWith(compact) ? 0 : 1;
+      results.push({ item, section, engine, score: exact + starts });
+    }
+  }
+
+  return results
+    .sort((a, b) => a.score - b.score || a.item.partNumber.localeCompare(b.item.partNumber) || a.section.label.localeCompare(b.section.label))
+    .slice(0, 12);
 }
 
 function routeForEngine(engineId) {
@@ -191,6 +235,34 @@ function selectedItems() {
     .filter(Boolean);
 }
 
+function renderGlobalSearchResults() {
+  const query = state.globalSearch.trim();
+  if (query.length < 2) return "";
+
+  const results = globalSearchResults(query);
+  if (!results.length) {
+    return `<div class="global-search-empty">Nenhum PN encontrado.</div>`;
+  }
+
+  return results.map(({ item, section, engine }) => `
+    <div class="global-search-result">
+      <button class="global-result-main" type="button" data-route="#/section/${engine.id}/${section.id}">
+        <strong>${escapeHtml(item.partNumber)}</strong>
+        <span>${escapeHtml(item.description)}</span>
+        <small>${escapeHtml(engine.name)} / ${escapeHtml(section.label)} / Item ${escapeHtml(item.figure)} / Qtd ${escapeHtml(item.qty[engine.id])}</small>
+      </button>
+      <button class="small-button add" type="button" data-add="${item.id}" data-engine="${engine.id}">ADD</button>
+    </div>
+  `).join("");
+}
+
+function updateGlobalSearchDropdown() {
+  const panel = document.querySelector("[data-global-results]");
+  if (!panel) return;
+  panel.innerHTML = renderGlobalSearchResults();
+  panel.hidden = state.globalSearch.trim().length < 2;
+}
+
 function addItem(itemId, engineId) {
   const item = itemById(itemId);
   if (!item) return;
@@ -233,6 +305,12 @@ function shell(content) {
             <span class="brand-subtitle">Selecao rapida para cotacao</span>
           </span>
         </a>
+        <div class="global-search">
+          <input type="search" placeholder="Buscar PN" value="${escapeHtml(state.globalSearch)}" data-global-search autocomplete="off">
+          <div class="global-search-menu" data-global-results ${state.globalSearch.trim().length < 2 ? "hidden" : ""}>
+            ${renderGlobalSearchResults()}
+          </div>
+        </div>
         <button class="cart-button" type="button" data-route="#/proceed">Lista (${selectedCount()})</button>
       </header>
       ${content}
@@ -587,12 +665,17 @@ function bindEvents() {
   app.addEventListener("click", (event) => {
     const route = event.target.closest("[data-route]");
     if (route) {
+      state.globalSearch = "";
+      const search = document.querySelector("[data-global-search]");
+      if (search) search.value = "";
+      updateGlobalSearchDropdown();
       location.hash = route.dataset.route;
       return;
     }
 
     const add = event.target.closest("[data-add]");
     if (add) {
+      state.globalSearch = "";
       addItem(add.dataset.add, add.dataset.engine);
       return;
     }
@@ -609,15 +692,39 @@ function bindEvents() {
       return;
     }
 
+    if (!event.target.closest(".global-search")) {
+      const panel = document.querySelector("[data-global-results]");
+      if (panel) panel.hidden = true;
+    }
   });
 
   app.addEventListener("input", (event) => {
+    if (event.target.matches("[data-global-search]")) {
+      state.globalSearch = event.target.value;
+      updateGlobalSearchDropdown();
+      return;
+    }
+
     if (event.target.matches("[data-search]")) {
       state.search = event.target.value;
       const query = state.search.trim().toLowerCase();
       document.querySelectorAll("[data-row-filter]").forEach((row) => {
         row.hidden = query ? !row.dataset.rowFilter.includes(query) : false;
       });
+    }
+  });
+
+  app.addEventListener("focusin", (event) => {
+    if (event.target.matches("[data-global-search]")) {
+      updateGlobalSearchDropdown();
+    }
+  });
+
+  app.addEventListener("keydown", (event) => {
+    if (event.target.matches("[data-global-search]") && event.key === "Escape") {
+      state.globalSearch = "";
+      event.target.value = "";
+      updateGlobalSearchDropdown();
     }
   });
 
