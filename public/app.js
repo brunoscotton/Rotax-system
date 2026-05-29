@@ -236,7 +236,7 @@ function itemCountForCategory(engineId, categoryId) {
 }
 
 function categoriesForEngine(engineId) {
-  const generatedEngines = ["915is", "916is", "582ul"];
+  const generatedEngines = ["915is", "916is", "582ul", "503ul"];
   if (generatedEngines.includes(engineId)) {
     return categoriesFromCatalog(engineId);
   }
