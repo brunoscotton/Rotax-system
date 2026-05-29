@@ -71,9 +71,9 @@ function buildQuoteText({ customer, items }) {
     );
   }
 
-  lines.push("", "CODIGOS PARA COPIAR");
+  lines.push("", "CODIGOS PARA COPIAR (TSV)");
   for (const item of items) {
-    lines.push(`${item.quantity || 1} ${formatPartNumberForCopy(item.partNumber)}`);
+    lines.push(`${item.quantity || 1}\t${formatPartNumberForCopy(item.partNumber)}`);
   }
 
   return `${lines.join("\n")}\n`;
